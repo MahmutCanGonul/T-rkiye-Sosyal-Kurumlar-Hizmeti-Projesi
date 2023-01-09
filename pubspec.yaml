@@ -1,0 +1,23 @@
+name: city_picker_from_map
+description: A flutter package for select a city from svg map.
+version: 0.0.1
+homepage: https://github.com/ahm3tcelik/city_picker_from_map
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  svg_path_parser: ^1.0.0
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/maps/
