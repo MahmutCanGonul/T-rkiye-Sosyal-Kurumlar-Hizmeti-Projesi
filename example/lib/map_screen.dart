@@ -24,7 +24,8 @@ class MapScreenState extends State<MapScreen>{
       body: FlutterMap(
         options: MapOptions(
           center:latLng.LatLng(widget.mapData['latitude'], widget.mapData['longitude']),
-          zoom: 13.0,
+          zoom: 13,
+          maxZoom: 18.0
         ),
         children: [
           TileLayer(
