@@ -20,6 +20,9 @@ var colors = [
   Colors.tealAccent,
   Colors.black,
   Colors.red,
+  Colors.teal,
+  Colors.black54,
+  Colors.brown
 ];
 
 
@@ -30,41 +33,110 @@ var currentCities = [
   'Eskişehir',
 ];
 
-var izmirData = {"status":"OK","data":[{"id":35,"name":"İzmir","area":11891,"population":4425789,"areaCode":[232],"isMetropolitan":true,"coordinates":{"latitude":38.41885,"longitude":27.12872},"maps":{"googleMaps":"https://goo.gl/maps/nukYGi69xLMX7SNR6","openStreetMap":"https://www.openstreetmap.org/relation/223167"},"region":{"en":"Aegean","tr":"Ege"},"districts":[{"id":1128,"name":"Aliağa","area":379,"population":103364},{"id":2006,"name":"Balçova","area":16,"population":80513},{"id":1178,"name":"Bayındır","area":548,"population":40049},{"id":2056,"name":"Bayraklı","area":30,"population":296839},{"id":1181,"name":"Bergama","area":1544,"population":104980},{"id":1776,"name":"Beydağ","area":172,"population":12197},{"id":1203,"name":"Bornova","area":220,"population":452867},{"id":1780,"name":"Buca","area":178,"population":517963},{"id":1251,"name":"Çeşme","area":285,"population":48167},{"id":2007,"name":"Çiğli","area":139,"population":209951},{"id":1280,"name":"Dikili","area":534,"population":46587},{"id":1334,"name":"Foça","area":251,"population":33611},{"id":2009,"name":"Gaziemir","area":70,"population":137856},{"id":2018,"name":"Güzelbahçe","area":77,"population":37572},{"id":2057,"name":"Karabağlar","area":89,"population":478788},{"id":1432,"name":"Karaburun","area":421,"population":11927},{"id":1448,"name":"Karşıyaka","area":51,"population":347023},{"id":1461,"name":"Kemalpaşa","area":681,"population":112049},{"id":1467,"name":"Kınık","area":479,"population":28513},{"id":1477,"name":"Kiraz","area":573,"population":43674},{"id":1819,"name":"Konak","area":24,"population":336545},{"id":1826,"name":"Menderes","area":777,"population":104147},{"id":1521,"name":"Menemen","area":573,"population":193229},{"id":2013,"name":"Narlıdere","area":50,"population":63438},{"id":1563,"name":"Ödemiş","area":1019,"population":132769},{"id":1611,"name":"Seferihisar","area":375,"population":52507},{"id":1612,"name":"Selçuk","area":317,"population":37689},{"id":1677,"name":"Tire","area":716,"population":86758},{"id":1682,"name":"Torbalı","area":577,"population":201476},{"id":1703,"name":"Urla","area":727,"population":72741}]}]};
 
-var provienceLocationData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini ve konumları map şeklinde tutulmaktadır
+var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini ve konumları map şeklinde tutulmaktadır
   "Istanbul":[
-    {"address":"Galata Kulesi","latitude":41.0256186,"longitude":28.974113821},
-    {"address":"Üsküdar Adres-1","latitude":41.026184,"longitude":29.0144958},
-    {"address":"Üsküdar Adres-2","latitude":41.026184,"longitude":29.0144958},
-    {"address":"Üsküdar Adres-3","latitude":41.026184,"longitude":29.0144958},
-    {"address":"Adalar Adres-4","latitude":41.026184,"longitude":29.0144958},
+    {"address":"19 Mayıs Mahallesi Sultan Sokak No:29 Kadıköy/ İstanbul",
+      "name":"19 Mayıs Sosyal Yaşam Evi & Alzheimer Merkezi",
+      "type":"Belediye",
+      "target_audience":"65 yaş üzeri",
+      "criteria":[ "Kadıköyde ikamet etmek, 65 yaş ve üzeri olmak",
+        "1. ve 2. evre alzheimer tanısı almış ve tıbbi belgeye sahip olmak* (*Alzheimer merkezi için)",
+       ],
+      "telephone_number":" (0216) 356 11 14",
+      "duration":"Hafta içi her gün 08.00 - 17.00",
+      "latitude":40.97720201770398,
+      "longitude":29.08521207639153},
 
+    {"address":"Sahrayıcedid mah. Güzide sok. No:7/1 Kadıköy-istanbul",
+      "name":"Sahrayıcedit Sosyal Yaşam Evi",
+      "type":"Belediye",
+      "target_audience":"65 yaş üzeri",
+      "criteria":[ "Kadıköyde ikamet etmek, 65 yaş ve üzeri olmak",],
+      "telephone_number":" (0216) 363 43 81",
+      "duration":"Hafta içi her gün 08.00 - 17.00",
+      "latitude":40.98450046504063,
+      "longitude":29.08960849784522},
+
+    {"address":"Tepegöz Sokak, Nural Köşkü No:43 Göztepe, Kadıköy/İstanbul",
+      "name":"Göztepe Sosyal Hizmet ve Alzheimer Merkezi",
+      "type":"Belediye",
+      "target_audience":"65 yaş üzeri",
+      "criteria":[ "Kadıköyde ikamet etmek, 65 yaş ve üzeri olmak",
+        "1. ve 2. evre alzheimer tanısı almış ve tıbbi belgeye sahip olmak* (*Alzheimer merkezi için)",
+      ],
+      "telephone_number":"(0216) 350 75 79",
+      "duration":"Hafta içi her gün 08.00 - 17.00",
+      "latitude":40.977605745696664,
+      "longitude":29.06012952159111},
+
+    {"address":"Merdivenköy, Şair Arşi Cd. No 56, 34732 Kadıköy/İstanbul",
+      "name":"Göztepe Semiha Şakir Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Aile ve Sosyal Politikalar Bakanlığına bağlı huzurevi",
+      "target_audience":"60 yaş üzeri",
+      "criteria":[ "Kadıköyde ikamet etmek, 65 yaş ve üzeri olmak",
+        "1. ve 2. evre alzheimer tanısı almış ve tıbbi belgeye sahip olmak* (*Alzheimer merkezi için)",
+      ],
+      "telephone_number":"(0216) 358 29 42",
+      "duration":"Hafta içi her gün 08.00 - 17.00",
+      "latitude":40.98852952861417,
+      "longitude":29.074071824421335},
+
+    {"address":"Caferağa Mah. General Asım Gündüz Cad. No: 39 Kadıköy/İstanbul",
+      "name":"Kadıköy Sosyal Yardımlaşma ve Dayanışma Vakfı",
+      "type":"Kadıköy Kaymakamlığı'na bağlı vakıf",
+      "target_audience":"65 yaş üzeri, engeli var ise 65 yaş altı olabilir",
+      "criteria":[
+        "Yaşlı aylığı; 65 yaşını doldurmuş olan, nafaka bağlanmamış veya nafaka bağlanması mümkün olmayan, kamu veya özel kurum ve kuruluşlarda iaşe ve ibateleri dâhil olmak üzere sürekli bakımı yapılmayan veya yaptırılmayan, 2828 sayılı Sosyal Hizmetler Kanunu hükümlerine göre harçlık almayan, yurt içi-yurt dışı ayrımı yapılmaksızın sosyal güvenlik kurumlarından bir gelir veya aylık hakkından yararlanmayan, isteğe bağlı prim ödemeyen, uzun vadeli sigorta kollarına tabi olacak şekilde çalışmayan, aynı hanede ikamet edip etmediklerine bakılmaksızın kendisi ve eşi dikkate alınmak suretiyle kişi başına düşen ortalama aylık geliri, asgari ücretin aylık net tutarının 1/3’ünden (01.07.2022'den sonrası için 1833,45 TL) az olan Türk vatandaşlarına bağlanır. Yaşlılık aylığından faydalanan kişi yetkili sağlık kuruluşundan %70 ve üzeri bir engel oranına sahip rapor aldığı takdirde engelli aylığından da faydalanabilir. %70 oranının altında ise sadece yaşlı aylığı bağlanabilir. 65 yaşından önce %40-69 arası engelli aylığı bağlananların aylığının ödenmesine devam olunur. Fiilen Kadıköy ilçe sınırları içinde yaşayan ve ikametgahı Kadıköy'de olanlar başvuru yapabilir"
+      ],
+      "telephone_number":"(0216) 346 43 96 - (0216) 418 04 36 - (0216) 418 57 58",
+      "duration":"Hafta içi her gün 08.30 - 17.00",
+      "latitude":40.9867387626291,
+      "longitude":29.02923465635994},
+
+    {"address":"Koşuyolu Mah. Mahmut Yesari Cad. No:84 KADIKÖY",
+      "name":"KADIKÖY BELEDİYESİ GÖRME ENGELLİLER SESLİ KÜTÜPHANESİ",
+      "type":"Belediye",
+      "target_audience":"Engelli bireyler",
+      "criteria":[
+        "Yaşlı aylığı; 65 yaşını doldurmuş olan, nafaka bağlanmamış veya nafaka bağlanması mümkün olmayan, kamu veya özel kurum ve kuruluşlarda iaşe ve ibateleri dâhil olmak üzere sürekli bakımı yapılmayan veya yaptırılmayan, 2828 sayılı Sosyal Hizmetler Kanunu hükümlerine göre harçlık almayan, yurt içi-yurt dışı ayrımı yapılmaksızın sosyal güvenlik kurumlarından bir gelir veya aylık hakkından yararlanmayan, isteğe bağlı prim ödemeyen, uzun vadeli sigorta kollarına tabi olacak şekilde çalışmayan, aynı hanede ikamet edip etmediklerine bakılmaksızın kendisi ve eşi dikkate alınmak suretiyle kişi başına düşen ortalama aylık geliri, asgari ücretin aylık net tutarının 1/3’ünden (01.07.2022'den sonrası için 1833,45 TL) az olan Türk vatandaşlarına bağlanır. Yaşlılık aylığından faydalanan kişi yetkili sağlık kuruluşundan %70 ve üzeri bir engel oranına sahip rapor aldığı takdirde engelli aylığından da faydalanabilir. %70 oranının altında ise sadece yaşlı aylığı bağlanabilir. 65 yaşından önce %40-69 arası engelli aylığı bağlananların aylığının ödenmesine devam olunur. Fiilen Kadıköy ilçe sınırları içinde yaşayan ve ikametgahı Kadıköy'de olanlar başvuru yapabilir"
+      ],
+      "telephone_number":"0216 337 21 21 (123-124)",
+      "duration":"Online Hizmet",
+      "latitude":41.00768282702324,
+      "longitude":29.03481620826857},
+
+    {"address":"Eğitim Mahallesi, Poyraz Sokak, Cem İş Merkezi, D:No:22/10, Kat 3, 34722 Kadıköy/İstanbul",
+      "name":"Kanser Savaşçıları Derneği",
+      "type":"STK",
+      "target_audience":"Kanser hastaları, depremzede kanser hastaları",
+      "criteria":[
+         "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
+      ],
+      "telephone_number":"0216 337 21 21 (123-124)",
+      "duration":"Tanı alanların gideceği hastane ve tedavi tarihlerine göre transferleri planlanıyor.",
+      "latitude":40.9918029607687,
+      "longitude":29.041926364401164},
+
+  ],
+  "Bursa":[
+    {"address":"19 MAYIS MH. EGEMENLİK CD. NO:5 NİLÜFER/BURSA",
+      "name":"Hasan Öztimur Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Aile ve Sosyal Politikalar Bakanlığı",
+      "target_audience":"Yaşlı-Alzhemier",
+      "criteria":["60 yaşı doldurmuş olmak",
+        "Kendi öz bakımını gerçekleştirebilir olmak",
+        "Akıl ve ruh sağlığı yerinde olmak",
+        "Herhangi bir bulaşıcı hastalığa sahip olmamak"],
+      "telephone_number":"0224 362 4778",
+      "duration":"00.00 - 24.00",
+      "latitude":40.22547694872019,
+      "longitude":28.886497726022547}
   ],
 };
 
 var citiesLocationData = { // İllerin kordinatları burada tutulmaktadır
-   'Istanbul':{'latitude':41.008240,'longitude':28.978359,
-     'markers':[
-       /* MARKER EXAMPLES
-       new Marker(
-       point:latLng.LatLng(
-           41.0255682,28.9653736
-       ),
-       width: 30,
-       height: 30,
-       builder:(context) => Icon(Icons.location_on,color: Colors.red,)),
-       new Marker(
-           point:latLng.LatLng(
-               41.026184,29.0144958
-           ),
-           width: 30,
-           height: 30,
-           builder:(context) => Icon(Icons.location_on,color: Colors.red,))
-
-        */
-     ]},
-
+   'Istanbul':{'latitude':41.008240,'longitude':28.978359, 'markers':[]},
   'Ankara':{'latitude':39.933365,'longitude':32.859741,'markers':[]},
    'İzmir':{'latitude':38.423733,'longitude':27.142826,'markers':[]},
    'Bursa':{'latitude':40.188526,'longitude':29.060965,'markers':[]},
@@ -116,7 +188,7 @@ class _HomeViewState extends State<HomeView> {
    super.initState();
 
  }
-
+/*
  void getStates(String state)async{
    provinces.clear();
    population = 0;
@@ -153,6 +225,7 @@ class _HomeViewState extends State<HomeView> {
 
    });
  }
+ */
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -186,7 +259,6 @@ class _HomeViewState extends State<HomeView> {
                 onChanged: (city) {
                   selectedCity=null;
                   if(currentCities.contains(city!.title)){
-                    getStates(city!.title);
                     setState(() {
                       selectedCity = city;
                     });
@@ -209,32 +281,35 @@ class _HomeViewState extends State<HomeView> {
 
           Row(
             children: [
-             provinces.isNotEmpty ?
-             Text('İLÇELER: ',textAlign: TextAlign.start,style: TextStyle(color: Colors.amberAccent),)
-             :SizedBox.shrink(),
-              SizedBox(width: 10,),
-             population > 0 ?
-             Text('  NÜFUS: ${population}',textAlign: TextAlign.start,style: TextStyle(color: Colors.amberAccent),):
-                 SizedBox.shrink(),
-              SizedBox(width: 10,),
-              population > 0 || provinces.isNotEmpty ? InkWell(
+              selectedCity!=null ? InkWell(
                 onTap: (){
                   var random = Random();
                   var mapData = citiesLocationData[selectedCity!.title];
                   if(mapData!=null){
                     var cityName = selectedCity!.title;
-                    if(provienceLocationData.containsKey(cityName)){
-                      var targetList = provienceLocationData[cityName] as List;
+                    if(targetData.containsKey(cityName)){
+                      var targetList = targetData[cityName] as List;
                       List<Marker> markers = [];
                       for(Map t in targetList){
                         var rand_index = random.nextInt(colors.length);
+                        print(t['name']);
                         markers.add(new Marker(
                             point:latLng.LatLng(
                                 t['latitude'],t['longitude']
                             ),
-                            width: 30,
-                            height: 30,
-                            builder:(context) => Icon(Icons.location_on,color: colors[rand_index],)));
+                            width:200,
+                            height: 200,
+                            builder:(context) => Row(
+                              children: [
+                               Stack(
+                                 children: [
+                                   Icon(Icons.location_on,color: colors[rand_index],size:50,),
+                                   Text('${(t['name'] as String).toLowerCase()}',style: TextStyle(color: Colors.white,fontSize:7,
+                                       backgroundColor: Colors.black),)
+                                 ],
+                               )
+                              ],
+                            )));
                       }
                       mapData.update("markers", (value) =>markers);
                     }
@@ -248,65 +323,101 @@ class _HomeViewState extends State<HomeView> {
                     );
                   }
                 },
-                child: Text('  KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pinkAccent),),
+                child: Text('KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pinkAccent),),
               ):SizedBox.shrink(),
-              SizedBox(width: 100,),
             ],
           ),
-              selectedCity != null  && provinces.length > 0
+              selectedCity != null  &&
+                  targetData.containsKey(selectedCity!.title)
                   ?
               Expanded(child: SizedBox(
                 child: ListView.builder(
                     shrinkWrap: true,
-                    itemCount:provinces.length,
+                    itemCount:(targetData[selectedCity!.title] as List).length,
                     itemBuilder: (context,index){
                       return Row(
                         children: [
                           InkWell(
-                            onTap: (){
-                              targetAddressList.clear();
-                              if(provienceLocationData.containsKey(selectedCity!.title)){
-                                var data = provienceLocationData[selectedCity!.title] as List;
-                                var count=0;
-                                for(var d in data){
-                                    var address = d['address'] as String;
-                                    if(address.contains(provinces[index])){
-                                         count++;
-                                         if(count == 1)
-                                           targetAddressList.add(RichText(
-                                           text: TextSpan(
-                                             text: '${provinces[index]} Yaşlı Bakım Adresleri',
-                                             style: TextStyle(fontSize: 20,color: Colors.pink,
-                                             fontWeight: FontWeight.bold),
-                                           ),
-                                           textAlign: TextAlign.center,
-                                         ));
-                                       targetAddressList.add(RichText(
-                                        text: TextSpan(
-                                          text: '${address}',
-                                          style: TextStyle(fontSize: 15,color: Colors.amberAccent),
-                                        ),
-                                          textAlign: TextAlign.center,
-                                        ));
-                                        targetAddressList.add(SizedBox(height: 10,));
-                                    }
-                                }
-                                setState(() {
-
-                                });
-                                if(targetAddressList.isNotEmpty)
-                                  showCupertinoModalSheet(context: context, builder:(context)=>
-                                      Container(
-                                        child: ListView(
-                                          children: targetAddressList,
-                                        ),
-                                      ));
-                              }
-                              print(provinces[index]);
-                            },
+                            onTap: ()=> showCupertinoModalSheet(context: context,
+                          builder:(context) => RichText(text: TextSpan(
+                            text: 'Kriterler: ',
+                            style: TextStyle(color: Colors.pinkAccent,fontSize: 15),
+                            children: [
+                                TextSpan(
+                                 text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
+                                 style: TextStyle(color: Colors.white)
+                                )
+                              ],
+                          ))),
                             child: Row(
                               children: [
-                                Text('${provinces[index]}',textAlign: TextAlign.center,),
+                                RichText(
+                                  text:TextSpan(
+                                    text: 'Kurum Adı:',
+                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                    children:[
+                                      TextSpan(
+                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}',
+                                        style: TextStyle(fontSize: 10,color: Colors.white),
+                                      ),
+                                    ],
+                                ),textAlign: TextAlign.center,
+                                ),
+                                SizedBox(width: 10,),
+                                RichText(
+                                  text:TextSpan(
+                                    text: 'Hedef Kitle:',
+                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                    children:[
+                                      TextSpan(
+                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}',
+                                        style: TextStyle(fontSize: 10,color: Colors.white),
+                                      ),
+                                    ],
+                                  ),textAlign: TextAlign.center,
+                                ),
+                                SizedBox(width: 10,),
+                                RichText(
+                                  text:TextSpan(
+                                    text: 'Telefon NO:',
+                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                    children:[
+                                      TextSpan(
+                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}',
+                                        style: TextStyle(fontSize: 10,color: Colors.white),
+
+                                      ),
+                                    ],
+                                  ),textAlign: TextAlign.center,
+                                ),
+                                SizedBox(width: 10,),
+                                RichText(
+                                  text:TextSpan(
+                                    text: 'Açık Adres:',
+                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                    children:[
+                                      TextSpan(
+                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['address']}',
+                                        style: TextStyle(fontSize: 10,color: Colors.white),
+
+                                      ),
+                                    ],
+                                  ),textAlign: TextAlign.center,
+                                ),
+                                SizedBox(width: 10,),
+                                RichText(
+                                  text:TextSpan(
+                                    text: 'Saatler:',
+                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                    children:[
+                                      TextSpan(
+                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['duration']}',
+                                        style: TextStyle(fontSize: 10,color: Colors.white),
+
+                                      ),
+                                    ],
+                                  ),textAlign: TextAlign.center,
+                                ),
                               ],
                             ),
                           ),
