@@ -181,7 +181,171 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "telephone_number":"0224 362 4778",
       "duration":"00.00 - 24.00",
       "latitude":40.22547694872019,
-      "longitude":28.886497726022547}
+      "longitude":28.886497726022547},
+
+    {"address":"19 Mayıs Mh. 2. Ilgın Sk. No:29 Nilüfer/ BURSA",
+      "name":"İnci ve Taner Altınmakas Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+        "Kendi gereksinimlerini karşılamasını engelleyici bir rahatsızlığı olmamak",
+        "Akıl ve ruh sağlığı yerinde olmak",
+        "Bulaşıcı hastalığı olmamak",
+        "Uyuşturucu madde ya da alkol bağımlısı olmamak"
+      ],
+      "telephone_number":"0224 413 5073",
+      "duration":"00.00 - 24.00",
+      "latitude":40.22353531552986,
+      "longitude":28.888511226136792},
+
+    {"address":"Çamlıca Mah. Kavakdere Cad. Begüm Sok. No:18 Nilüfer/Bursa",
+      "name":"İzzet Şadi Sayarel Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+        "Akıl ve ruh sağlığı yerinde olmak",
+        "Bulaşıcı hastalığı olmamak",
+        "Uyuşturucu madde ya da alkol bağımlısı olmamak",
+        "Resmi evlilik birliği devam eden kişilerin eşlerinden dilekçe almak",
+        "Toplu yaşam koşullarını etkileyecek düzeyde sabıka kaydı olmaması",
+        "Toplu yaşam koşullarını etkilemeyecek düzeyde sabıka kaydı olması durumunda şartlı kabul dilekçesi alınır"
+        ],
+      "telephone_number":"0224 504 0203",
+      "duration":"00.00 - 24.00",
+      "latitude":40.193377806604,
+      "longitude":28.97611435497109},
+
+    {"address":"Özlüce Mahallesi Okul Caddesi No:13 Nilüfer/BURSA",
+      "name":"Lions & Ercan Dikencik Alzheimer Hasta Konuk Evi",
+      "type":"Belediye(ücretli Günlük150TL,Aylık4500TL)",
+      "target_audience":"Yaşlı-Alzheimer",
+      "criteria":[
+        "Yaş sınırı yok",
+        "Alzheimer tanısı almış olması",
+        "Hastalığın başlangıç ve orta evresinde olması (Sağlık raporu)"
+        ],
+      "telephone_number":"(0224) 413 13 02",
+      "duration":"00.00 - 24.00",
+      "latitude":40.23950180725445,
+      "longitude":28.9056164973019},
+
+    {"address":"Değirmenlikızık Mah. Huzurevi Cad. 54/1-A Yıldırım, Bursa",
+      "name":"BURSA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI - HACI BULDUK ÇELİK",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+        "60 yaşı doldurmuş olmak",
+        "Kendi öz bakımını gerçekleştirebilir  durumda olmak",
+        "Akıl ve ruh sağlığı yerinde olmak",
+        "Herhangi bir bulaşıcı hastalığa sahip olmamak"
+      ],
+      "telephone_number":"0224 716 31 00",
+      "duration":"00.00 - 24.00",
+      "latitude":40.17432674791703,
+      "longitude":29.111791997299804},
+
+    {"address":"Değirmenlikızık Mah. Huzurevi Cad. 54/1-A Yıldırım, Bursa",
+      "name":"Fethiye Dörtçelik Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı-Engelli",
+      "criteria":[
+        "60 yaşın üzerindeki bakıma muhtaç veya sosyal güvencesi olmayan",
+        "kimsesiz",
+        "özürlü-engelli yaşlılar"
+      ],
+      "telephone_number":"0224 716 31 00",
+      "duration":"00.00 - 24.00",
+      "latitude":40.174277561432994,
+      "longitude":29.111802726135167},
+
+    {"address":"Yenigün, 16900 Yenişehir/Bursa",
+      "name":"Bursa Yenişehir Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı-Engelli",
+      "criteria":[
+        "60 yaşın üzerindeki bakıma muhtaç veya sosyal güvencesi olmayan",
+        "madde bağımlılığı olmayan",
+        "kimsesiz",
+        "özürlü-engelli yaşlılar"
+      ],
+      "telephone_number":"0224 772 1116",
+      "duration":"00.00 - 24.00",
+      "latitude":40.27775380479703,
+      "longitude":29.645170795657183},
+
+    {"address":"Nalınlar, 16980 Orhaneli/Bursa",
+      "name":"Dilruba evleri insanlık köyü",
+      "type":"Derneğe bağlı özel(ücretli) kuruluş",
+      "target_audience":"Yaşlı",
+      "criteria":[
+        "55 yaşın üzerindeki kadınlarda bakımevi hizmeti",
+        "erkeklerde bakımevi ve huzurevi",
+      ],
+      "telephone_number":"0532 540 8038",
+      "duration":"00.00 - 24.00",
+      "latitude":40.02456166757298,
+      "longitude":28.895299174843974},
+
+    {"address":"Demirtaş Cumhuriyet, 16245, 16100 Osmangazi/Bursa",
+      "name":"Bakım ve Rehabilitasyon  Merkezi (BAREM)",
+      "type":"Belediye",
+      "target_audience":"Alzeimer- yaşlı-zihinsel ve bedensel engelli-evsizler",
+      "criteria":[
+      ],
+      "telephone_number":"Bilinmiyor",
+      "duration":"Bilinmiyor",
+      "latitude":40.197871712344934,
+      "longitude":29.193582526135824},
+
+    {"address":"Alipaşa, 1. Merve Sk. 2/2, 16040 Osmangazi/Bursa",
+      "name":"Şukufe Hamdi Sami Gökçen Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+      ],
+      "telephone_number":"(0224) 221 70 47",
+      "duration":"Bilinmiyor",
+      "latitude":40.17939043935218,
+      "longitude":29.061602168464447},
+
+    {"address":"Yeniceköy mahallesi Rauf Denktaş cd. no:39, 16400 İnegöl/Bursa",
+      "name":"İnegöl Belediyesi Fatma Göztepe Huzurevi ve Aşevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+      ],
+      "telephone_number":"(0224) 713 59 04",
+      "duration":"Bilinmiyor",
+      "latitude":40.0913634114339,
+      "longitude":29.41866153962626},
+
+    {"address":"Selçuk, 16860 İznik/Bursa",
+      "name":"İznik Belediyesi Ülker Aktar Huzurevi ve Yaşlı Bakım Merkezi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+        "60 yaşı doldurmuş olmak",
+        "Kendi öz bakımını gerçekleştirebilir durumda olmak",
+        "Akıl ve ruh sağlığı yerinde olmak",
+        "Herhangi bir bulaşıcı hastalığa sahip olmamak"
+      ],
+      "telephone_number":"(0224) 757 72 14",
+      "duration":"Bilinmiyor",
+      "latitude":40.42148374653927,
+      "longitude":29.714252691407605},
+
+    {"address":"Cuma, Huzurevi Cad. No:54 D:1/a, 16740 Keles/Bursa",
+      "name":"Bursa Büyükşehir Belediyesi Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+       ],
+      "telephone_number":"(0224) 364 19 76",
+      "duration":"Bilinmiyor",
+      "latitude":39.91377535378206,
+      "longitude": 29.22935852769715},
+
+
   ],
 };
 
@@ -370,7 +534,9 @@ class _HomeViewState extends State<HomeView> {
                                Stack(
                                  children: [
                                    Icon(Icons.location_on,color: colors[rand_index],size:50,),
-                                   Text('${(t['name'] as String).toLowerCase()}',style: TextStyle(color: Colors.white,fontSize:7,
+                                   Text('${(t['name'] as String).toLowerCase()}',style: TextStyle(color: Colors.white,
+                                       fontSize:7,
+                                       fontWeight: FontWeight.bold,
                                        backgroundColor: Colors.black),)
                                  ],
                                )
@@ -428,7 +594,9 @@ class _HomeViewState extends State<HomeView> {
                                               children: [
                                                 Icon(Icons.location_on,color: colors[rand_index],size:50,),
                                                 Text('${((targetData[selectedCity!.title] as List)[index]['name'] as String).toLowerCase()}',
-                                                  style: TextStyle(color: Colors.white,fontSize:7,
+                                                  style: TextStyle(color: Colors.white,
+                                                      fontSize:7,
+                                                    fontWeight: FontWeight.bold,
                                                     backgroundColor: Colors.black),)
                                               ],
                                             )
@@ -497,7 +665,7 @@ class _HomeViewState extends State<HomeView> {
                                     style: TextStyle(fontSize: 12,color: Colors.yellow),
                                     children:[
                                       TextSpan(
-                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['address']}',
+                                        text: ' ${((targetData[selectedCity!.title] as List)[index]['address'] as String).toLowerCase()}',
                                         style: TextStyle(fontSize: 10,color: Colors.white),
 
                                       ),
@@ -519,6 +687,7 @@ class _HomeViewState extends State<HomeView> {
                                   ),textAlign: TextAlign.center,
                                 ),
                                 SizedBox(width: 10,),
+                                ((targetData[selectedCity!.title] as List)[index]['criteria'] as List).isNotEmpty ?
                                 IconButton(onPressed:()=> showCupertinoModalSheet(context: context,
                                     builder:(context) => RichText(text: TextSpan(
                                       text: 'Kriterler: ',
@@ -528,7 +697,7 @@ class _HomeViewState extends State<HomeView> {
                                             text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
                                             style: TextStyle(color: Colors.white)
                                         )],
-                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pinkAccent,))
+                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pinkAccent,)):SizedBox.shrink(),
                               ],
                             ),
                           ),
