@@ -48,6 +48,56 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":40.97720201770398,
       "longitude":29.08521207639153},
 
+    {"address":"Nisbetiye mah. Aytar cad. başlık sokak no:1 Beşiktaş-İstanbul",
+      "name":"65+ Yaşam ofisi ",
+      "type":"Belediye",
+      "target_audience":"65 yaş ve üstü yaşlılar",
+      "criteria":["Beşiktaş'ta ikamet ediyor olmak, 65 yaş ve üzeri olmak, alzhimer tanısı almamış olmak"],
+      "telephone_number":"0212 319 4242 (3196)",
+      "duration":"devamlı",
+      "latitude":41.07505817134914,
+      "longitude":29.020393535137902},
+
+    {"address":"Nisbetiye mah. Ilgın Sokak 3 Beşiktaş,İstanbul",
+      "name":"Ulus Yaşam Evi ",
+      "type":"Belediye",
+      "target_audience":"65 yaş ve üstü yaşlılar",
+      "criteria":["Beşiktaş'ta ikamet ediyor olmak, 65 yaş ve üzeri olmak, alzhimer tanısı varsa refakatçısının olması"],
+      "telephone_number":"0212 319 4242",
+      "duration":"devamlı",
+      "latitude":41.071330327674794,
+      "longitude":29.023256653390035},
+
+    {"address":"Etiler mahallesi, Ahular sokak, No:19 Beşiktaş",
+      "name":"Etiler Yaşam Evi",
+      "type":"Belediye",
+      "target_audience":"65 yaş ve üstü yaşlılar",
+      "criteria":["Beşiktaş'ta ikamet ediyor olmak, 65 yaş ve üzeri olmak, alzhimer tanısı varsa refakatçısının olması"],
+      "telephone_number":"0212 319 4242",
+      "duration":"devamlı",
+      "latitude":41.0826110875536,
+      "longitude":29.036534101839813},
+
+    {"address":"Levent Mah. Ebulula Mardin Cad. Gazeteciler Sitesi B7 Blok No:63/9001 Beşiktaş/İSTANBUL",
+      "name":"Esenlik Merkezi",
+      "type":"Belediye",
+      "target_audience":"75 yaş ve üstü yaşlılar",
+      "criteria":["Beşiktaş'ta ikamet ediyor olmak, 75 yaş ve üzeri olmak, yalnız yaşamak ve/veya özbakımını karşılayamayacak durumda olmak "],
+      "telephone_number":"(0212) 280 55 35",
+      "duration":"devamlı",
+      "latitude":41.08269519644975,
+      "longitude":29.021217457659812},
+
+    {"address":"Nisbetiye mah. Aytar cad. başlık sokak no:1 Beşiktaş-İstanbul",
+      "name":"Beşiktaş Belediyesi (evde kişisel bakım ve muayene hizmet)",
+      "type":"Belediye",
+      "target_audience":"65 yaş üstü veya engelliler",
+      "criteria":["Beşiktaş'ta ikamet ediyor olmak, 65 yaş üzeri veya engelli olmak, kronik rahatsızlığından dolayı bakıma muhtaç olmak"],
+      "telephone_number":"444 44 55",
+      "duration":"devamlı",
+      "latitude":41.07505817134914,
+      "longitude":29.020393535137902},
+
     {"address":"Sahrayıcedid mah. Güzide sok. No:7/1 Kadıköy-istanbul",
       "name":"Sahrayıcedit Sosyal Yaşam Evi",
       "type":"Belediye",
@@ -114,7 +164,7 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
          "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
       ],
       "telephone_number":"0216 337 21 21 (123-124)",
-      "duration":"Tanı alanların gideceği hastane ve tedavi tarihlerine göre transferleri planlanıyor.",
+      "duration":"Tedavi tarihlerine göre transferleri planlanıyor.",
       "latitude":40.9918029607687,
       "longitude":29.041926364401164},
 
@@ -134,6 +184,23 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "longitude":28.886497726022547}
   ],
 };
+
+const tempCoordinates =
+  {'Istanbul':{'latitude':41.008240,'longitude':28.978359},
+  'Ankara':{'latitude':39.933365,'longitude':32.859741},
+  'İzmir':{'latitude':38.423733,'longitude':27.142826},
+  'Bursa':{'latitude':40.188526,'longitude':29.060965},
+  'Antalya':{'latitude':36.897917,'longitude':30.648065},
+  'Konya':{'latitude':37.8698698,'longitude':32.480586},
+  'Adana':{'latitude':36.9973327,'longitude':35.1479824},
+  'Şanlıurfa':{'latitude':37.1671169,'longitude':38.755785},
+  'Gaziantep':{'latitude':37.0587509,'longitude':37.3100969},
+  'Kocaeli':{'latitude':40.7711087,'longitude':29.8994816},
+  'Diyarbakır':{'latitude':37.9263347,'longitude':40.1844574},
+  'Trabzon':{'latitude':40.994703,'longitude':39.7057651},
+  'Aydın':{'latitude':37.8428353,'longitude':27.8276054},
+  'Erzurum':{'latitude':39.9044064,'longitude':41.2601875},
+  'Eskişehir':{'latitude':39.7734595,'longitude':30.4998641},};
 
 var citiesLocationData = { // İllerin kordinatları burada tutulmaktadır
    'Istanbul':{'latitude':41.008240,'longitude':28.978359, 'markers':[]},
@@ -292,7 +359,6 @@ class _HomeViewState extends State<HomeView> {
                       List<Marker> markers = [];
                       for(Map t in targetList){
                         var rand_index = random.nextInt(colors.length);
-                        print(t['name']);
                         markers.add(new Marker(
                             point:latLng.LatLng(
                                 t['latitude'],t['longitude']
@@ -312,6 +378,9 @@ class _HomeViewState extends State<HomeView> {
                             )));
                       }
                       mapData.update("markers", (value) =>markers);
+                      mapData.update("latitude", (value) =>tempCoordinates[cityName]!['latitude'] as double);
+                      mapData.update("longitude", (value) =>tempCoordinates[cityName]!['longitude'] as double);
+
                     }
                     if(cityName == 'Istanbul')
                        cityName ="İstanbul";
@@ -338,17 +407,48 @@ class _HomeViewState extends State<HomeView> {
                       return Row(
                         children: [
                           InkWell(
-                            onTap: ()=> showCupertinoModalSheet(context: context,
-                          builder:(context) => RichText(text: TextSpan(
-                            text: 'Kriterler: ',
-                            style: TextStyle(color: Colors.pinkAccent,fontSize: 15),
-                            children: [
-                                TextSpan(
-                                 text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
-                                 style: TextStyle(color: Colors.white)
-                                )
-                              ],
-                          ))),
+                            onTap: (){
+                              var random = Random();
+                              var mapData = citiesLocationData[selectedCity!.title];
+                              if(mapData!=null){
+                                var cityName = selectedCity!.title;
+                                if(targetData.containsKey(cityName)){
+                                  List<Marker> markers = [];
+                                  var rand_index = random.nextInt(colors.length);
+                                  markers.add(new Marker(
+                                        point:latLng.LatLng(
+                                            (targetData[selectedCity!.title] as List)[index]['latitude'],
+                                            (targetData[selectedCity!.title] as List)[index]['longitude']
+                                        ),
+                                        width:200,
+                                        height: 200,
+                                        builder:(context) => Row(
+                                          children: [
+                                            Stack(
+                                              children: [
+                                                Icon(Icons.location_on,color: colors[rand_index],size:50,),
+                                                Text('${((targetData[selectedCity!.title] as List)[index]['name'] as String).toLowerCase()}',
+                                                  style: TextStyle(color: Colors.white,fontSize:7,
+                                                    backgroundColor: Colors.black),)
+                                              ],
+                                            )
+                                          ],
+                                        )));
+                                  mapData.update("markers", (value) =>markers);
+                                  mapData.update("latitude", (value) =>markers[0].point.latitude);
+                                  mapData.update("longitude", (value) =>markers[0].point.longitude);
+
+                                }
+                                if(cityName == 'Istanbul')
+                                  cityName ="İstanbul";
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) =>  MapScreen(
+                                      cityName: cityName,
+                                      mapData: mapData)),
+                                );
+                              }
+                            },
                             child: Row(
                               children: [
                                 RichText(
@@ -418,6 +518,17 @@ class _HomeViewState extends State<HomeView> {
                                     ],
                                   ),textAlign: TextAlign.center,
                                 ),
+                                SizedBox(width: 10,),
+                                IconButton(onPressed:()=> showCupertinoModalSheet(context: context,
+                                    builder:(context) => RichText(text: TextSpan(
+                                      text: 'Kriterler: ',
+                                      style: TextStyle(color: Colors.pinkAccent,fontSize: 15),
+                                      children: [
+                                        TextSpan(
+                                            text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
+                                            style: TextStyle(color: Colors.white)
+                                        )],
+                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pinkAccent,))
                               ],
                             ),
                           ),
