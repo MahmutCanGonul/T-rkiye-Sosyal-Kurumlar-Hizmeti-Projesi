@@ -168,6 +168,78 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":40.9918029607687,
       "longitude":29.041926364401164},
 
+    {"address":"Rasimpaşa Mahallesi Karakolhane Caddesi No:39 Kadıköy-İSTANBUL",
+      "name":"Kadıköy Belediyesi Gönüllüleri - Gönüllü Evi Seminerleri (Prof. Dr. Korkmaz Altuğ Sağlık Polikliniği)",
+      "type":"Belediye",
+      "target_audience":"Kronik hastalık, Hipertansiyon, Hiperlipidemi, Astım, Alzheimer Hastalığı,Romatizmal Hastalıklar, vb.",
+      "criteria":[
+        "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
+      ],
+      "telephone_number":"0216 565 13 44 - 0216 565 25 94",
+      "duration":"\nHafta içi 09.00 - 16.00",
+      "latitude":40.995161,
+      "longitude":29.029273},
+
+    {"address":"Rasimpaşa Mah. İskele Sokak No: 2 - Kadıköy",
+      "name":"‘Evde Kuaförlük' Hizmeti - Kadıköy Sosyal Hizmet Merkezleri",
+      "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
+      "target_audience":"65 yaş üzeri olmak ve fiziksel, psikolojik ya da \nyaşa bağlı nedenlerle günlük yaşam aktivitelerini gerçekleştirmekte zorluk yaşamak ve/veya engeli bulunmak,Kadıköy'de ikamet etmek",
+      "criteria":[
+        "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
+      ],
+      "telephone_number":"0216 349 11 89 - 0216 418 21 75",
+      "duration":"\nHafta içi 08.30 - 17.00",
+      "latitude":40.99590730657526,
+      "longitude":29.02501220364351},
+
+    {"address":"Rasimpaşa Mah. İskele Sokak No:2-Kadıköy",
+      "name":"Evde temizlik hizmeti-Kadıköy Belediyesi Sosyal Hizmet Merkezleri",
+      "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
+      "target_audience":"65 yaş üzeri olmak ve fiziksel, psikolojik ya da \nyaşa bağlı nedenlerle günlük yaşam aktivitelerini gerçekleştirmekte zorluk yaşamak ve/veya engeli bulunmak,Kadıköy'de ikamet etmek",
+      "criteria":[
+        "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
+      ],
+      "telephone_number":"0216 349 11 89 - 0216 418 21 75",
+      "duration":"\nHafta içi 08.30 - 17.00",
+      "latitude":40.99590730657526,
+      "longitude":29.02501220364351},
+
+    {"address":"Rasimpaşa Mah. İskele Sokak No: 2 - Kadıköy",
+      "name":"Evde temizlik hizmeti - Kadıköy Belediyesi Sosyal Hizmet Merkezleri",
+      "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
+      "target_audience":"65 yaş üzeri olmak ve fiziksel, psikolojik \nya da yaşa bağlı nedenlerle günlük yaşam aktivitelerini gerçekleştirmekte zorluk yaşamak ve/veya engeli bulunmak,Kadıköy'de ikamet etmek",
+      "criteria":[
+        "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve \nİstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
+      ],
+      "telephone_number":"0216 349 11 89 - 0216 418 21 75",
+      "duration":"\nHafta içi 08.30 - 17.00",
+      "latitude":40.99590730657526,
+      "longitude":29.02501220364351},
+
+    {"address":"Rasimpaşa Mah. İskele Sokak No: 2 - Kadıköy,\n / 19 Mayıs, Sultan Sokağı No:28, 34736 Kadıköy/İstanbul",
+      "name":"Psikolojik Danışmanlık Hizmeti - \nRasimpaşa Sosyal Hizmet Merkezi & 19 Mayıs Sosyal Hizmet Merkezi",
+      "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
+      "target_audience":"Yetişkinler, çocuklar, çiftler (65 Yaş üzeri dahil)",
+      "criteria":[
+        "Kadıköyde ikamet etmek, hizmet alınan merkez; ikamet edilen mahalleye göre değişir."
+      ],
+      "telephone_number":"0216 349 11 89 - 0216 418 21 75",
+      "duration":"Hafta içi her gün 08.30 - 17.00",
+      "latitude":40.99590730657526,
+      "longitude":29.02501220364351},
+
+    {"address":"Koşuyolu Mah. Mahmut Yesari Cad. No:84 KADIKÖY",
+      "name":"Koşuyolu Engelsiz Sosyal Hizmet Merkezi (Engelsiz Taksi)",
+      "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
+      "target_audience":"Engelli bireyler öncelikli olmak üzere, tüm bireylere \n(çocuk, genç, kadın, erkek, engelli, yaşlı, mülteci, göçmen ve LGBTİ bireyler), Kadıköy de ikamet etmek",
+      "criteria":[
+        "Kadıköyde ikamet etmek, hizmet alınan merkez; ikamet edilen mahalleye göre değişir."
+      ],
+      "telephone_number":"0216 337 21 21 - 444 00 81",
+      "duration":"Hafta içi her gün 08.30 - 17.00 \nEngelsiz taksi randevu sistemi ile",
+      "latitude":41.00768282702324,
+      "longitude":29.03481620826857},
+
   ],
   "Bursa":[
     {"address":"19 MAYIS MH. EGEMENLİK CD. NO:5 NİLÜFER/BURSA",
@@ -344,8 +416,29 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "duration":"Bilinmiyor",
       "latitude":39.91377535378206,
       "longitude": 29.22935852769715},
+  ],
+  "Trabzon":[
+    {"address":"Soğuksu Mahallesi Huzur Cad. No:18/A Ortahisar/ Trabzon",
+      "name":"Huzurevi, Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlı",
+      "criteria":[
+      ],
+      "telephone_number":"+90 (462) 231 0529",
+      "duration":"7 gün 24 saat ",
+      "latitude":40.98960916857994,
+      "longitude": 39.69627649636202},
 
-
+    {"address":"Soğuksu Mah. Yarım Sakal Cad. Uygur Sok. No:2 Ortahisar/Trabzon",
+      "name":"Trabzon Köşk Huzurevi Müdürlüğü",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlı",
+      "criteria":[
+      ],
+      "telephone_number":"+90 (462) 231 1390",
+      "duration":"7 gün 24 saat ",
+      "latitude":40.976950629243966,
+      "longitude": 39.701214507217244},
   ],
 };
 
@@ -522,6 +615,12 @@ class _HomeViewState extends State<HomeView> {
                       var targetList = targetData[cityName] as List;
                       List<Marker> markers = [];
                       for(Map t in targetList){
+                        var name = "";
+                        for(int i=0; i<(t['name'] as String).length;i++){
+                           if(i%30==0)
+                             name+="\n";
+                           name += (t['name'] as String)[i];
+                        }
                         var rand_index = random.nextInt(colors.length);
                         markers.add(new Marker(
                             point:latLng.LatLng(
@@ -533,11 +632,15 @@ class _HomeViewState extends State<HomeView> {
                               children: [
                                Stack(
                                  children: [
-                                   Icon(Icons.location_on,color: colors[rand_index],size:50,),
-                                   Text('${(t['name'] as String).toLowerCase()}',style: TextStyle(color: Colors.white,
-                                       fontSize:7,
-                                       fontWeight: FontWeight.bold,
-                                       backgroundColor: Colors.black),)
+                                   Positioned(child: Row(
+                                     children: [
+                                       Icon(Icons.location_on,color: colors[rand_index],size:50,),
+                                       Text('${name.toUpperCase()}',style: TextStyle(color: Colors.white,
+                                           fontSize:8,
+                                           fontWeight: FontWeight.bold,
+                                           backgroundColor: Colors.black),)
+                                     ],
+                                   )),
                                  ],
                                )
                               ],
@@ -580,6 +683,12 @@ class _HomeViewState extends State<HomeView> {
                                 var cityName = selectedCity!.title;
                                 if(targetData.containsKey(cityName)){
                                   List<Marker> markers = [];
+                                  var name = "";
+                                  for(int i=0; i<((targetData[selectedCity!.title] as List)[index]['name'] as String).length;i++){
+                                    if(i%30==0)
+                                      name+="\n";
+                                    name += ((targetData[selectedCity!.title] as List)[index]['name'] as String)[i];
+                                  }
                                   var rand_index = random.nextInt(colors.length);
                                   markers.add(new Marker(
                                         point:latLng.LatLng(
@@ -592,12 +701,16 @@ class _HomeViewState extends State<HomeView> {
                                           children: [
                                             Stack(
                                               children: [
-                                                Icon(Icons.location_on,color: colors[rand_index],size:50,),
-                                                Text('${((targetData[selectedCity!.title] as List)[index]['name'] as String).toLowerCase()}',
-                                                  style: TextStyle(color: Colors.white,
-                                                      fontSize:7,
-                                                    fontWeight: FontWeight.bold,
-                                                    backgroundColor: Colors.black),)
+                                                Positioned(child: Row(
+                                                  children: [
+                                                    Icon(Icons.location_on,color: colors[rand_index],size:50,),
+                                                    Text('${(name.toUpperCase())}',
+                                                      style: TextStyle(color: Colors.white,
+                                                          fontSize:8,
+                                                          fontWeight: FontWeight.bold,
+                                                          backgroundColor: Colors.black),)
+                                                  ],
+                                                )),
                                               ],
                                             )
                                           ],
@@ -617,88 +730,91 @@ class _HomeViewState extends State<HomeView> {
                                 );
                               }
                             },
-                            child: Row(
-                              children: [
-                                RichText(
-                                  text:TextSpan(
-                                    text: 'Kurum Adı:',
-                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
-                                    children:[
-                                      TextSpan(
-                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}',
-                                        style: TextStyle(fontSize: 10,color: Colors.white),
-                                      ),
-                                    ],
-                                ),textAlign: TextAlign.center,
-                                ),
-                                SizedBox(width: 10,),
-                                RichText(
-                                  text:TextSpan(
-                                    text: 'Hedef Kitle:',
-                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
-                                    children:[
-                                      TextSpan(
-                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}',
-                                        style: TextStyle(fontSize: 10,color: Colors.white),
-                                      ),
-                                    ],
-                                  ),textAlign: TextAlign.center,
-                                ),
-                                SizedBox(width: 10,),
-                                RichText(
-                                  text:TextSpan(
-                                    text: 'Telefon NO:',
-                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
-                                    children:[
-                                      TextSpan(
-                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}',
-                                        style: TextStyle(fontSize: 10,color: Colors.white),
-
-                                      ),
-                                    ],
-                                  ),textAlign: TextAlign.center,
-                                ),
-                                SizedBox(width: 10,),
-                                RichText(
-                                  text:TextSpan(
-                                    text: 'Açık Adres:',
-                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
-                                    children:[
-                                      TextSpan(
-                                        text: ' ${((targetData[selectedCity!.title] as List)[index]['address'] as String).toLowerCase()}',
-                                        style: TextStyle(fontSize: 10,color: Colors.white),
-
-                                      ),
-                                    ],
-                                  ),textAlign: TextAlign.center,
-                                ),
-                                SizedBox(width: 10,),
-                                RichText(
-                                  text:TextSpan(
-                                    text: 'Saatler:',
-                                    style: TextStyle(fontSize: 12,color: Colors.yellow),
-                                    children:[
-                                      TextSpan(
-                                        text: ' ${(targetData[selectedCity!.title] as List)[index]['duration']}',
-                                        style: TextStyle(fontSize: 10,color: Colors.white),
-
-                                      ),
-                                    ],
-                                  ),textAlign: TextAlign.center,
-                                ),
-                                SizedBox(width: 10,),
-                                ((targetData[selectedCity!.title] as List)[index]['criteria'] as List).isNotEmpty ?
-                                IconButton(onPressed:()=> showCupertinoModalSheet(context: context,
-                                    builder:(context) => RichText(text: TextSpan(
-                                      text: 'Kriterler: ',
-                                      style: TextStyle(color: Colors.pinkAccent,fontSize: 15),
-                                      children: [
+                            child: Expanded(
+                              child: Row(
+                                children: [
+                                  RichText(
+                                    text:TextSpan(
+                                      text: 'Kurum Adı:',
+                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      children:[
                                         TextSpan(
-                                            text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
-                                            style: TextStyle(color: Colors.white)
-                                        )],
-                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pinkAccent,)):SizedBox.shrink(),
-                              ],
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}',
+                                          style: TextStyle(fontSize: 10,color: Colors.white),
+                                        ),
+                                      ],
+                                    ),textAlign: TextAlign.center,
+                                  ),
+                                  SizedBox(width: 5,),
+                                  RichText(
+                                    text:TextSpan(
+                                      text: 'Hedef Kitle:',
+                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      children:[
+                                        TextSpan(
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}',
+                                          style: TextStyle(fontSize: 10,color: Colors.white),
+                                        ),
+                                      ],
+                                    ),textAlign: TextAlign.center,
+                                  ),
+                                  SizedBox(width: 5,),
+                                  RichText(
+                                    text:TextSpan(
+                                      text: 'Telefon:',
+                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      children:[
+                                        TextSpan(
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}',
+                                          style: TextStyle(fontSize: 10,color: Colors.white),
+
+                                        ),
+                                      ],
+                                    ),textAlign: TextAlign.center,
+                                  ),
+                                  SizedBox(width: 5,),
+                                  RichText(
+                                    text:TextSpan(
+                                      text: 'Açık Adres:',
+                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      children:[
+                                        TextSpan(
+                                          text: ' ${((targetData[selectedCity!.title] as List)[index]['address'] as String).toLowerCase()}',
+                                          style: TextStyle(fontSize: 10,color: Colors.white),
+
+                                        ),
+                                      ],
+                                    ),textAlign: TextAlign.center,
+                                  ),
+                                  SizedBox(width: 5,),
+                                  RichText(
+                                    overflow: TextOverflow.ellipsis,
+                                    text:TextSpan(
+                                      text: 'Saatler:',
+                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      children:[
+                                        TextSpan(
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['duration']}',
+                                          style: TextStyle(fontSize: 10,color: Colors.white),
+
+                                        ),
+                                      ],
+                                    ),textAlign: TextAlign.center,
+                                  ),
+                                  SizedBox(width: 5,),
+                                  ((targetData[selectedCity!.title] as List)[index]['criteria'] as List).isNotEmpty ?
+                                  IconButton(onPressed:()=> showCupertinoModalSheet(context: context,
+                                      builder:(context) => RichText(text: TextSpan(
+                                        text: 'Kriterler: ',
+                                        style: TextStyle(color: Colors.pinkAccent,fontSize: 15),
+                                        children: [
+                                          TextSpan(
+                                              text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
+                                              style: TextStyle(color: Colors.white)
+                                          )],
+                                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pinkAccent,)):SizedBox.shrink(),
+                                ],
+                              ),
                             ),
                           ),
                           SizedBox(height: 40,),
