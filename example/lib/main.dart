@@ -171,7 +171,7 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
     {"address":"Rasimpaşa Mahallesi Karakolhane Caddesi No:39 Kadıköy-İSTANBUL",
       "name":"Kadıköy Belediyesi Gönüllüleri - Gönüllü Evi Seminerleri (Prof. Dr. Korkmaz Altuğ Sağlık Polikliniği)",
       "type":"Belediye",
-      "target_audience":"Kronik hastalık, Hipertansiyon, Hiperlipidemi, Astım, Alzheimer Hastalığı,Romatizmal Hastalıklar, vb.",
+      "target_audience":"Kronik hastalık, Hipertansiyon, Hiperlipidemi, \nAstım, Alzheimer Hastalığı,Romatizmal Hastalıklar, vb.",
       "criteria":[
         "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
       ],
@@ -199,22 +199,11 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "criteria":[
         "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
       ],
-      "telephone_number":"0216 349 11 89 - 0216 418 21 75",
+      "telephone_number":"0216 349 11 89\n - 0216 418 21 75",
       "duration":"\nHafta içi 08.30 - 17.00",
       "latitude":40.99590730657526,
       "longitude":29.02501220364351},
 
-    {"address":"Rasimpaşa Mah. İskele Sokak No: 2 - Kadıköy",
-      "name":"Evde temizlik hizmeti - Kadıköy Belediyesi Sosyal Hizmet Merkezleri",
-      "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
-      "target_audience":"65 yaş üzeri olmak ve fiziksel, psikolojik \nya da yaşa bağlı nedenlerle günlük yaşam aktivitelerini gerçekleştirmekte zorluk yaşamak ve/veya engeli bulunmak,Kadıköy'de ikamet etmek",
-      "criteria":[
-        "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve \nİstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
-      ],
-      "telephone_number":"0216 349 11 89 - 0216 418 21 75",
-      "duration":"\nHafta içi 08.30 - 17.00",
-      "latitude":40.99590730657526,
-      "longitude":29.02501220364351},
 
     {"address":"Rasimpaşa Mah. İskele Sokak No: 2 - Kadıköy,\n / 19 Mayıs, Sultan Sokağı No:28, 34736 Kadıköy/İstanbul",
       "name":"Psikolojik Danışmanlık Hizmeti - \nRasimpaşa Sosyal Hizmet Merkezi & 19 Mayıs Sosyal Hizmet Merkezi",
