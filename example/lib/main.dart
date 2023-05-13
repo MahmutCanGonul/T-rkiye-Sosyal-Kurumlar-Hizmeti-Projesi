@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:math';
-import 'package:cupertino_modal_sheet/cupertino_modal_sheet.dart';
 import 'package:example/map_screen.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:http/http.dart' as http;
@@ -135,11 +134,11 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
     {"address":"Caferağa Mah. General Asım Gündüz Cad. No: 39 Kadıköy/İstanbul",
       "name":"Kadıköy Sosyal Yardımlaşma ve Dayanışma Vakfı",
       "type":"Kadıköy Kaymakamlığı'na bağlı vakıf",
-      "target_audience":"65 yaş üzeri, engeli var ise 65 yaş altı olabilir",
+      "target_audience":"65 yaş üzeri, \nengeli var ise 65 yaş altı olabilir",
       "criteria":[
         "Yaşlı aylığı; 65 yaşını doldurmuş olan, nafaka bağlanmamış veya nafaka bağlanması mümkün olmayan, kamu veya özel kurum ve kuruluşlarda iaşe ve ibateleri dâhil olmak üzere sürekli bakımı yapılmayan veya yaptırılmayan, 2828 sayılı Sosyal Hizmetler Kanunu hükümlerine göre harçlık almayan, yurt içi-yurt dışı ayrımı yapılmaksızın sosyal güvenlik kurumlarından bir gelir veya aylık hakkından yararlanmayan, isteğe bağlı prim ödemeyen, uzun vadeli sigorta kollarına tabi olacak şekilde çalışmayan, aynı hanede ikamet edip etmediklerine bakılmaksızın kendisi ve eşi dikkate alınmak suretiyle kişi başına düşen ortalama aylık geliri, asgari ücretin aylık net tutarının 1/3’ünden (01.07.2022'den sonrası için 1833,45 TL) az olan Türk vatandaşlarına bağlanır. Yaşlılık aylığından faydalanan kişi yetkili sağlık kuruluşundan %70 ve üzeri bir engel oranına sahip rapor aldığı takdirde engelli aylığından da faydalanabilir. %70 oranının altında ise sadece yaşlı aylığı bağlanabilir. 65 yaşından önce %40-69 arası engelli aylığı bağlananların aylığının ödenmesine devam olunur. Fiilen Kadıköy ilçe sınırları içinde yaşayan ve ikametgahı Kadıköy'de olanlar başvuru yapabilir"
       ],
-      "telephone_number":"(0216) 346 43 96 - (0216) 418 04 36 - (0216) 418 57 58",
+      "telephone_number":"(0216) 346 43 96-\n(0216) 418 04 36-(0216) 418 57 58",
       "duration":"Hafta içi her gün 08.30 - 17.00",
       "latitude":40.9867387626291,
       "longitude":29.02923465635994},
@@ -156,7 +155,7 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":41.00768282702324,
       "longitude":29.03481620826857},
 
-    {"address":"Eğitim Mahallesi, Poyraz Sokak, Cem İş Merkezi, D:No:22/10, Kat 3, 34722 Kadıköy/İstanbul",
+    {"address":"Eğitim Mahallesi, Poyraz Sokak, \nCem İş Merkezi, D:No:22/10, Kat 3, 34722 Kadıköy/İstanbul",
       "name":"Kanser Savaşçıları Derneği",
       "type":"STK",
       "target_audience":"Kanser hastaları, depremzede kanser hastaları",
@@ -168,32 +167,32 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":40.9918029607687,
       "longitude":29.041926364401164},
 
-    {"address":"Rasimpaşa Mahallesi Karakolhane Caddesi No:39 Kadıköy-İSTANBUL",
-      "name":"Kadıköy Belediyesi Gönüllüleri - Gönüllü Evi Seminerleri (Prof. Dr. Korkmaz Altuğ Sağlık Polikliniği)",
+    {"address":"Rasimpaşa Mahallesi Karakolhane Caddesi \nNo:39 Kadıköy-İSTANBUL",
+      "name":"Kadıköy Belediyesi Gönüllüleri-\nGönüllü Evi Seminerleri (Prof. Dr. Korkmaz Altuğ Sağlık Polikliniği)",
       "type":"Belediye",
       "target_audience":"Kronik hastalık, Hipertansiyon, Hiperlipidemi, \nAstım, Alzheimer Hastalığı,Romatizmal Hastalıklar, vb.",
       "criteria":[
         "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
       ],
-      "telephone_number":"0216 565 13 44 - 0216 565 25 94",
+      "telephone_number":"0216 565 13 44-0216 565 25 94",
       "duration":"\nHafta içi 09.00 - 16.00",
       "latitude":40.995161,
       "longitude":29.029273},
 
     {"address":"Rasimpaşa Mah. İskele Sokak No: 2 - Kadıköy",
-      "name":"‘Evde Kuaförlük' Hizmeti - Kadıköy Sosyal Hizmet Merkezleri",
+      "name":"‘Evde Kuaförlük' Hizmeti-\nKadıköy Sosyal Hizmet Merkezleri",
       "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
       "target_audience":"65 yaş üzeri olmak ve fiziksel, psikolojik ya da \nyaşa bağlı nedenlerle günlük yaşam aktivitelerini gerçekleştirmekte zorluk yaşamak ve/veya engeli bulunmak,Kadıköy'de ikamet etmek",
       "criteria":[
         "Onko-van servisi sadece kamu hastanelerinde tedavi alan ve İstanbul Anadolu yakasında tedavi alan bireylere hizmet veriyor."
       ],
-      "telephone_number":"0216 349 11 89 - 0216 418 21 75",
+      "telephone_number":"0216 349 11 89\n-0216 418 21 75",
       "duration":"\nHafta içi 08.30 - 17.00",
       "latitude":40.99590730657526,
       "longitude":29.02501220364351},
 
     {"address":"Rasimpaşa Mah. İskele Sokak No:2-Kadıköy",
-      "name":"Evde temizlik hizmeti-Kadıköy Belediyesi Sosyal Hizmet Merkezleri",
+      "name":"Evde temizlik hizmeti-\nKadıköy Belediyesi Sosyal Hizmet Merkezleri",
       "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
       "target_audience":"65 yaş üzeri olmak ve fiziksel, psikolojik ya da \nyaşa bağlı nedenlerle günlük yaşam aktivitelerini gerçekleştirmekte zorluk yaşamak ve/veya engeli bulunmak,Kadıköy'de ikamet etmek",
       "criteria":[
@@ -217,14 +216,14 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":40.99590730657526,
       "longitude":29.02501220364351},
 
-    {"address":"Koşuyolu Mah. Mahmut Yesari Cad. No:84 KADIKÖY",
-      "name":"Koşuyolu Engelsiz Sosyal Hizmet Merkezi (Engelsiz Taksi)",
+    {"address":"Koşuyolu Mah. \nMahmut Yesari Cad. No:84 KADIKÖY",
+      "name":"Koşuyolu Engelsiz Sosyal Hizmet Merkezi\n(Engelsiz Taksi)",
       "type":"Kadıköy Belediyesi Sosyal Destek Hizmetleri Müdürlüğü ",
       "target_audience":"Engelli bireyler öncelikli olmak üzere, tüm bireylere \n(çocuk, genç, kadın, erkek, engelli, yaşlı, mülteci, göçmen ve LGBTİ bireyler), Kadıköy de ikamet etmek",
       "criteria":[
         "Kadıköyde ikamet etmek, hizmet alınan merkez; ikamet edilen mahalleye göre değişir."
       ],
-      "telephone_number":"0216 337 21 21 - 444 00 81",
+      "telephone_number":"0216 337 21 21-\n444 00 81",
       "duration":"Hafta içi her gün 08.30 - 17.00 \nEngelsiz taksi randevu sistemi ile",
       "latitude":41.00768282702324,
       "longitude":29.03481620826857},
@@ -725,11 +724,11 @@ class _HomeViewState extends State<HomeView> {
                                 children: [
                                   RichText(
                                     text:TextSpan(
-                                      text: 'Kurum Adı:',
+                                      text: '${index+1}.Kurum Adı:',
                                       style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}',
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}'.toUpperCase(),
                                           style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
                                         ),
                                       ],
@@ -742,7 +741,7 @@ class _HomeViewState extends State<HomeView> {
                                       style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}',
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}'.toUpperCase(),
                                           style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
                                         ),
                                       ],
@@ -755,7 +754,7 @@ class _HomeViewState extends State<HomeView> {
                                       style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}',
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}'.toUpperCase(),
                                           style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
@@ -769,7 +768,7 @@ class _HomeViewState extends State<HomeView> {
                                       style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
-                                          text: ' ${((targetData[selectedCity!.title] as List)[index]['address'] as String).toLowerCase()}',
+                                          text: ' ${((targetData[selectedCity!.title] as List)[index]['address'] as String).toUpperCase()}',
                                           style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
@@ -784,7 +783,7 @@ class _HomeViewState extends State<HomeView> {
                                       style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['duration']}',
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['duration']}'.toUpperCase(),
                                           style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
@@ -793,14 +792,14 @@ class _HomeViewState extends State<HomeView> {
                                   ),
                                   SizedBox(width: 5,),
                                   ((targetData[selectedCity!.title] as List)[index]['criteria'] as List).isNotEmpty ?
-                                  IconButton(onPressed:()=> showCupertinoModalSheet(context: context,
+                                  IconButton(onPressed:()=> showModalBottomSheet(context: context,
                                       builder:(context) => RichText(text: TextSpan(
                                         text: 'Kriterler: ',
-                                        style: TextStyle(color: Colors.pink,fontSize: 15,fontWeight: FontWeight.bold),
+                                        style: TextStyle(color: Colors.pink,fontSize: 20,fontWeight: FontWeight.bold),
                                         children: [
                                           TextSpan(
                                               text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
-                                              style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold)
+                                              style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)
                                           )],
                                       ))), icon: Icon(Icons.info,size: 20,color: Colors.pink,)):SizedBox.shrink(),
                                 ],
