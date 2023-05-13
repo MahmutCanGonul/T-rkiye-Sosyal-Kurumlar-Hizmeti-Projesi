@@ -542,6 +542,7 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Seçilen Şehir: ${selectedCity?.title ?? '(Lütfen işaretli olan illeri seçiniz)'}'),
         actions: [
@@ -585,9 +586,9 @@ class _HomeViewState extends State<HomeView> {
                   });
                 },
                 actAsToggle: true,
-                dotColor: Colors.white,
-                selectedColor: Colors.lightBlueAccent,
-                strokeColor: Colors.white24,
+                dotColor: Colors.pink,
+                selectedColor: Colors.teal,
+                strokeColor: Colors.black,
               ),
             ),
           ),
@@ -650,7 +651,7 @@ class _HomeViewState extends State<HomeView> {
                     );
                   }
                 },
-                child: Text('TÜM KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pinkAccent,fontWeight: FontWeight.bold),),
+                child: Text('TÜM KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pink,fontWeight: FontWeight.bold),),
               ):SizedBox.shrink(),
             ],
           ),
@@ -725,11 +726,11 @@ class _HomeViewState extends State<HomeView> {
                                   RichText(
                                     text:TextSpan(
                                       text: 'Kurum Adı:',
-                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
                                           text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}',
-                                          style: TextStyle(fontSize: 10,color: Colors.white),
+                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
                                         ),
                                       ],
                                     ),textAlign: TextAlign.center,
@@ -738,11 +739,11 @@ class _HomeViewState extends State<HomeView> {
                                   RichText(
                                     text:TextSpan(
                                       text: 'Hedef Kitle:',
-                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
                                           text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}',
-                                          style: TextStyle(fontSize: 10,color: Colors.white),
+                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
                                         ),
                                       ],
                                     ),textAlign: TextAlign.center,
@@ -751,11 +752,11 @@ class _HomeViewState extends State<HomeView> {
                                   RichText(
                                     text:TextSpan(
                                       text: 'Telefon:',
-                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
                                           text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}',
-                                          style: TextStyle(fontSize: 10,color: Colors.white),
+                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
                                       ],
@@ -765,11 +766,11 @@ class _HomeViewState extends State<HomeView> {
                                   RichText(
                                     text:TextSpan(
                                       text: 'Açık Adres:',
-                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
                                           text: ' ${((targetData[selectedCity!.title] as List)[index]['address'] as String).toLowerCase()}',
-                                          style: TextStyle(fontSize: 10,color: Colors.white),
+                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
                                       ],
@@ -780,11 +781,11 @@ class _HomeViewState extends State<HomeView> {
                                     overflow: TextOverflow.ellipsis,
                                     text:TextSpan(
                                       text: 'Saatler:',
-                                      style: TextStyle(fontSize: 12,color: Colors.yellow),
+                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
                                           text: ' ${(targetData[selectedCity!.title] as List)[index]['duration']}',
-                                          style: TextStyle(fontSize: 10,color: Colors.white),
+                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
                                       ],
@@ -795,13 +796,13 @@ class _HomeViewState extends State<HomeView> {
                                   IconButton(onPressed:()=> showCupertinoModalSheet(context: context,
                                       builder:(context) => RichText(text: TextSpan(
                                         text: 'Kriterler: ',
-                                        style: TextStyle(color: Colors.pinkAccent,fontSize: 15),
+                                        style: TextStyle(color: Colors.pink,fontSize: 15,fontWeight: FontWeight.bold),
                                         children: [
                                           TextSpan(
                                               text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
-                                              style: TextStyle(color: Colors.white)
+                                              style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold)
                                           )],
-                                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pinkAccent,)):SizedBox.shrink(),
+                                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pink,)):SizedBox.shrink(),
                                 ],
                               ),
                             ),
