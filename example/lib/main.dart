@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:city_picker_from_map/city_picker_from_map.dart';
 import 'dart:convert';
 import 'package:latlong2/latlong.dart' as latLng;
+import 'package:url_launcher/url_launcher.dart';
 
 var colors = [
   Colors.purple,
@@ -559,6 +560,41 @@ class _HomeViewState extends State<HomeView> {
       ),
       body: Column(
         children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              InkWell(
+                onTap: ()async{
+                  await launchUrl(Uri.parse('https://www.birizdernegi.org/'));
+                },
+                child: CircleAvatar(
+                  //backgroundColor: Colors.teal,
+                  backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1146773186580832257/I9XwL7fH_400x400.jpg'),
+                  radius: 60,
+                ),
+              ),
+              InkWell(
+                onTap:()async{
+                  await launchUrl(Uri.parse('https://siviltoplumdestek.org/'));
+                },
+                child: CircleAvatar(
+                  //backgroundColor: Colors.purpleAccent,
+                  backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1479052515786301440/H6JrNSS3_400x400.png'),
+                  radius: 40,
+                ),
+              ),
+              InkWell(
+                onTap: ()async{
+                  //launch url
+                  await launchUrl(Uri.parse('https://www.agesa.com.tr/'));
+                },
+                child: CircleAvatar(
+                  backgroundImage: NetworkImage('https://mir-s3-cdn-cf.behance.net/projects/404/d30af0155719783.Y3JvcCwxMjMxLDk2MywzNTMsMTg.png'),
+                  radius: 40,
+                ),
+              ),
+            ],
+          ),
           Center(
             child: InteractiveViewer(
               scaleEnabled: true,
