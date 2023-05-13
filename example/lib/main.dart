@@ -594,7 +594,7 @@ class _HomeViewState extends State<HomeView> {
 
           Row(
             children: [
-              selectedCity!=null ? InkWell(
+              selectedCity!=null && targetData.containsKey(selectedCity!.title) ? InkWell(
                 onTap: (){
                   var random = Random();
                   var mapData = citiesLocationData[selectedCity!.title];
@@ -650,7 +650,7 @@ class _HomeViewState extends State<HomeView> {
                     );
                   }
                 },
-                child: Text('KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pinkAccent),),
+                child: Text('TÜM KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pinkAccent,fontWeight: FontWeight.bold),),
               ):SizedBox.shrink(),
             ],
           ),
