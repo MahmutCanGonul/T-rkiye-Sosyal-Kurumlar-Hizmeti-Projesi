@@ -660,7 +660,18 @@ class _HomeViewState extends State<HomeView> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Seçilen Şehir: ${selectedCity?.title ?? '(Lütfen işaretli olan illeri seçiniz)'}'),
+        title:
+        Row(
+          children: [
+            CircleAvatar(
+              backgroundImage: AssetImage('images/harita65Logo.jpg'),
+              radius: 65,
+            ),
+            SizedBox(width: 10,),
+            Text('Seçilen Şehir: ${selectedCity?.title ?? '(Lütfen işaretli olan illeri seçiniz)'}'),
+          ],
+        ),
+        //Text('Seçilen Şehir: ${selectedCity?.title ?? '(Lütfen işaretli olan illeri seçiniz)'}'),
         actions: [
           IconButton(
               icon: Icon(Icons.delete, color: Colors.red),
