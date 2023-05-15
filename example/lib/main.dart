@@ -229,6 +229,19 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":41.00768282702324,
       "longitude":29.03481620826857},
 
+    {"address":"Kayışdağı Cad. No:211 34755 Ataşehir/İSTANBUL",
+      "name":"DARÜLACEZE MÜDÜRLÜĞÜ (Kayışdağı)",
+      "type":"Belediye",
+      "target_audience":"Çocuklar ile engelli ve yaşlı bireyler",
+      "criteria":[
+        "Darülaceze Başkanlığı Kabul Koşulları incelenmeli"
+      ],
+      "telephone_number":"0216 528 84 00",
+      "duration":"Konaklama + Haftanın her günü 09:00–17:00 (Ziyaret saatleri)",
+      "latitude":40.97805858536974,
+      "longitude":29.148354474468096},
+
+
   ],
   "Bursa":[
     {"address":"19 MAYIS MH. EGEMENLİK CD. NO:5 NİLÜFER/BURSA",
@@ -561,7 +574,37 @@ class _HomeViewState extends State<HomeView> {
       body: Column(
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.end,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              InkWell(
+                onTap:()async{
+                  await launchUrl(Uri.parse('https://siviltoplumdestek.org/'));
+                },
+                child: CircleAvatar(
+                  //backgroundColor: Colors.purpleAccent,
+                  backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1479052515786301440/H6JrNSS3_400x400.png'),
+                  radius: 30,
+                ),
+              ),
+              SizedBox(width: 10,),
+              InkWell(
+                onTap: ()async{
+                  //launch url
+                  await launchUrl(Uri.parse('https://www.agesa.com.tr/'));
+                },
+                child: CircleAvatar(
+                  backgroundImage: NetworkImage('https://mir-s3-cdn-cf.behance.net/projects/404/d30af0155719783.Y3JvcCwxMjMxLDk2MywzNTMsMTg.png'),
+                  radius: 30,
+                ),
+              ),
+            ],
+          ),
+          Text("Bu proje, AgeSA Hayat ve Emeklilik tarafından, Sivil Toplum için Destek Vakfı koordinasyonuyla hayata geçirilen Her Yaşta Fonu'nun desteğiyle yürütülmektedir.",
+            style: TextStyle(color: Colors.black,
+                ),
+            textAlign: TextAlign.center,),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               InkWell(
                 onTap: ()async{
@@ -570,27 +613,7 @@ class _HomeViewState extends State<HomeView> {
                 child: CircleAvatar(
                   //backgroundColor: Colors.teal,
                   backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1146773186580832257/I9XwL7fH_400x400.jpg'),
-                  radius: 60,
-                ),
-              ),
-              InkWell(
-                onTap:()async{
-                  await launchUrl(Uri.parse('https://siviltoplumdestek.org/'));
-                },
-                child: CircleAvatar(
-                  //backgroundColor: Colors.purpleAccent,
-                  backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1479052515786301440/H6JrNSS3_400x400.png'),
-                  radius: 40,
-                ),
-              ),
-              InkWell(
-                onTap: ()async{
-                  //launch url
-                  await launchUrl(Uri.parse('https://www.agesa.com.tr/'));
-                },
-                child: CircleAvatar(
-                  backgroundImage: NetworkImage('https://mir-s3-cdn-cf.behance.net/projects/404/d30af0155719783.Y3JvcCwxMjMxLDk2MywzNTMsMTg.png'),
-                  radius: 40,
+                  radius: 30,
                 ),
               ),
             ],
