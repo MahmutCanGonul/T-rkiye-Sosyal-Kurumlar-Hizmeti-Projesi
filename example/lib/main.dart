@@ -16,7 +16,7 @@ var colors = [
   Colors.green,
   Colors.amberAccent,
   Colors.orange,
-  Colors.pink,
+  //Colors.pink,
   Colors.tealAccent,
   Colors.black,
   Colors.red,
@@ -612,6 +612,7 @@ class _HomeViewState extends State<HomeView> {
   var provinces = [];
   var population=0;
   List<Widget> targetAddressList = [];
+  Color selected_color = Colors.teal;
  @override
  void initState(){
    super.initState();
@@ -696,7 +697,7 @@ class _HomeViewState extends State<HomeView> {
                 },
                 child: CircleAvatar(
                   //backgroundColor: Colors.purpleAccent,
-                  backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1479052515786301440/H6JrNSS3_400x400.png'),
+                  backgroundImage:AssetImage('images/stdv.jpeg'),
                   radius: 30,
                 ),
               ),
@@ -707,7 +708,7 @@ class _HomeViewState extends State<HomeView> {
                   await launchUrl(Uri.parse('https://www.agesa.com.tr/'));
                 },
                 child: CircleAvatar(
-                  backgroundImage: NetworkImage('https://mir-s3-cdn-cf.behance.net/projects/404/d30af0155719783.Y3JvcCwxMjMxLDk2MywzNTMsMTg.png'),
+                  backgroundImage: AssetImage('images/agesa.jpeg'),
                   radius: 30,
                 ),
               ),
@@ -743,9 +744,11 @@ class _HomeViewState extends State<HomeView> {
                 height: double.infinity,
                 map: Maps.TURKEY,
                 onChanged: (city) {
+                  var random = Random();
                   selectedCity=null;
                   if(currentCities.contains(city!.title)){
                     setState(() {
+                      selected_color = colors[random.nextInt(colors.length)];
                       selectedCity = city;
                     });
                   }
@@ -759,7 +762,7 @@ class _HomeViewState extends State<HomeView> {
                 },
                 actAsToggle: true,
                 dotColor: Colors.pink,
-                selectedColor: Colors.teal,
+                selectedColor: selected_color,
                 strokeColor: Colors.black,
               ),
             ),
