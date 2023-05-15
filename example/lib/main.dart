@@ -241,6 +241,109 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":40.97805858536974,
       "longitude":29.148354474468096},
 
+    {"address":"Küçükbakkalköy Mah. Vedat Günyol Cad. No: 4 Ataşehir / İstanbul",
+      "name":"Türkan Saylan Tıp Merkezi",
+      "type":"Belediye",
+      "target_audience":"Sosyal Güvenlik Kurumu bünyesindeki(SSK, Bağ-Kur, Emekli Sandığı) \ntüm çalışan, emekli vatandaşlar ve 18 yaş altı çocuklar, Sosyal güvencesi bulunmayan vatandaşlar",
+      "criteria":[
+         "Sosyal güvencesi bulunmayan vatandaşlar da Türkan Saylan Tıp Merkezi’nden asgari bir ücret ödeyerek yararlanabilir. 18 yaş altı çocuklar tıp merkezinden hiçbir ücret ödemeden yararlanabiliyor."
+      ],
+      "telephone_number":"(0216) 577 71 40",
+      "duration":"Hafta içi her gün 08:30–17:00",
+      "latitude":40.980055993384234,
+      "longitude":29.104084},
+
+    {"address":"Ferhatpaşa Mahallesi Yeditepe Caddesi \n16.Sokak No:25 Ataşehir",
+      "name":"Ataşehir Belediyesi Ferhatpaşa Sağlık Polikliniği",
+      "type":"Belediye",
+      "target_audience":"Ataşehir Belediyesi Ferhatpaşa Sağlık Polikliniği’nde sigortalı ya da \nsigortasız olduğuna bakılmaksızın tüm vatandaşlarımıza ücretsiz hizmet verilecektir.",
+      "criteria":[
+        " Not: Doğum"
+      ],
+      "telephone_number":"(0216) 570 50 00",
+      "duration":"Hafta içi her gün 08:30–17:00,\n Cumartesi:08:30–12:30",
+      "latitude":40.98771318901821,
+      "longitude":29.169600743490086},
+
+    {"address":"-",
+      "name":"Ataşehir Belediyesi-EVDE SAĞLIK HİZMETLERİ-Tıbbi Danışmanlık Hizmeti",
+      "type":"Belediye",
+      "target_audience":"Sağlık sorunları yaşayan tüm Ataşehirlilere",
+      "criteria":[
+        " Not: Tıbbi Danışmanlık acil ya da acil olmayan, sağlınızla ilgili her türlü konuda sorularınızı deneyimli hekimlere yöneltebileceğiniz, koruyucu ve yönlendirici bir sağlık hizmetidir."
+      ],
+      "telephone_number":"444 45 70",
+      "duration":"7 gün 24 saat",
+      "latitude":null,
+      "longitude":null},
+
+    {"address":"-",
+      "name":"Ataşehir Belediyesi - EVDE SAĞLIK HİZMETLERİ - Hasta Nakil Ambulans Hizmeti",
+      "type":"Belediye",
+      "target_audience":"Sağlık sorunları yaşayan tüm Ataşehirlilere",
+      "criteria":[
+        "Ataşehir’de ikamet etmek, engelli ve 65 yaş üstü yatalak olmak"
+        " Not: Randevu için 1 gün öncesinden ulaşılmalı."
+      ],
+      "telephone_number":"444 60 39 ve ( 216) 570 50 00–(1825 dahili)",
+      "duration":"Hafta içi her gün saat 08:30 - 17:00",
+      "latitude":null,
+      "longitude":null},
+
+    {"address":"-",
+      "name":"Ataşehir Belediyesi-EVDE SAĞLIK VE SOSYAL DESTEK HİZMETİ-Evde Muayene",
+      "type":"Belediye",
+      "target_audience":"Bedensel engelli ve 65 yaş üzeri bireyler",
+      "criteria":[
+          "Engelli ve/veya 65 yaş üzeri olmak, Ataşehir'de ikamet etmek"
+          "Enjeksiyon uygulamaları"
+      ],
+      "telephone_number":"444 45 70",
+      "duration":"Bu hizmete 7 gün 24 saat 444 45 70 numaralı çağrı merkezimizden \nulaşabiliyor ancak randevu oluşturmak gerekiyor.",
+      "latitude":null,
+      "longitude":null},
+
+    {"address":"-",
+      "name":"Ataşehir Belediyesi - EVDE SAĞLIK HİZMETLERİ - Evde Kişisel Bakım Hizmetleri",
+      "type":"Belediye",
+      "target_audience":"Bedensel engelli ve 65 yaş üzeri bireyler",
+      "criteria":[
+         "Bu hizmet evde yalnız yaşayan 65 yaş üstü, kronik rahatsızlığı olan, engelli ve kendi başına bu işlemleri yapamayacak durumda olan vatandaşlarımız için veriliyor."
+        ],
+      "telephone_number":"444 45 70",
+      "duration":"Hafta içi her gün 09.00 - 17.00",
+      "latitude":null,
+      "longitude":null},
+
+    {"address":"-",
+      "name":"Ataşehir Belediyesi-SOSYAL ALARM SİSTEMİ HİZMETİ",
+      "type":"Belediye",
+      "target_audience":"Bedensel engelli ve 65 yaş üzeri bireyler",
+      "criteria":[
+        "Engelli ve 65 yaş üzeri Ataşehirliler",
+" Not: Evlere kurduğumuz sosyal alarm sistemi ile sadece bir tuşa basarak, 7 gün 24 saat sağlık ve sosyal destek hizmetlerimizden ücretsiz olarak yararlanılabiliyor. Sabit telefon hattı üzerinden çalışan sosyal alarm sistemimiz ile;"
+"-Tek tuşla çağrı merkezine bağlanarak, sesli görüşme yapabilir,"
+"- Acil ve konuşamayacak durumda olsanız bile, sadece tek bir tuşa basarak yardım isteğini çağrı merkezimize ulaştırabilirsiniz."
+    "Sosyal Alarm Sistemi, hastamız butona bastığı anda devreye giriyor. Hastanın adres ve konum bilgileri, anında merkezimize ulaşıyor. Yaşanan bu tür durumlarda hastamızı sözlü olarak sakinleştirmeye çalışıyor ve gerekli durumlarda harekete geçildiğine dair sözlü bilgilendirmede yaparak müdehalede bulunuyoruz."
+      ],
+      "telephone_number":"444 17 00/444 45 70",
+      "duration":"7 gün 24 saat",
+      "latitude":null,
+      "longitude":null},
+
+    {"address":"Cengiz Topel Cad. No: 11 Küçükbakkalköy–Ataşehir/İstanbul",
+      "name":"DOÇ. DR. BAHRİYE ÜÇOK HASTA KONUK EVİ",
+      "type":"Belediye",
+      "target_audience":"Hasta Konukevi’nde özellikle Anadolu yakasındaki devlet hastanelerinde \nayakta tedavi gören hastalar misafir ediliyor.",
+      "criteria":[
+      "Bu hizmetten yararlanmak için hasta ve yakınlarının bir devlet hastanesinde tedavi olduklarına dair belge ya da sevk kağıdı ile başvuru yapmaları gerekiyor. Konuk Hastaların ayakta tedavi görmesi şartı aranıyor. Yatarak tedavisi olmadığı için riskli hastalar Hasta Konuk Evine kabul edilemiyor.",
+      " Not: Konuk Evi’nde kalmak isteyen hastalar başvurularını Türkan Saylan Tıp Merkezi’ne ya da www.atasehir.bel.tr internet adresindeki iletişim numaralarından yapabiliyorlar."
+      ],
+      "telephone_number":"216 572 15 84",
+      "duration":"Hasta Konuk Evi’ne başvurular \nsaat 17.00’a kadar alınıyor.",
+      "latitude":40.97991128091252,
+      "longitude":29.117651664660873},
+
 
   ],
   "Bursa":[
@@ -670,7 +773,8 @@ class _HomeViewState extends State<HomeView> {
                            name += (t['name'] as String)[i];
                         }
                         var rand_index = random.nextInt(colors.length);
-                        markers.add(new Marker(
+                        if(t['latitude'] != null  && t['longitude']!=null)
+                          markers.add(new Marker(
                             point:latLng.LatLng(
                                 t['latitude'],t['longitude']
                             ),
@@ -738,7 +842,9 @@ class _HomeViewState extends State<HomeView> {
                                     name += ((targetData[selectedCity!.title] as List)[index]['name'] as String)[i];
                                   }
                                   var rand_index = random.nextInt(colors.length);
-                                  markers.add(new Marker(
+                                  if((targetData[selectedCity!.title] as List)[index]['latitude'] != null &&
+                                      (targetData[selectedCity!.title] as List)[index]['longitude'] != null)
+                                    markers.add(new Marker(
                                         point:latLng.LatLng(
                                             (targetData[selectedCity!.title] as List)[index]['latitude'],
                                             (targetData[selectedCity!.title] as List)[index]['longitude']
