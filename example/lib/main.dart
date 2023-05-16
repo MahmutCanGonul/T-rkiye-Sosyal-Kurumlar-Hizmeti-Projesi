@@ -545,6 +545,73 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":40.976950629243966,
       "longitude": 39.701214507217244},
   ],
+  "Kocaeli":[
+    {"address":"Yenişehir, 18, Ateş Böceği Sk., 41050 İzmit/ Kocaeli",
+      "name":"Kocaeli Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+      ],
+      "telephone_number":"2623253066",
+      "duration":"24 saat",
+      "latitude":40.78129663095729,
+      "longitude": 29.97134169561978},
+    {"address":"Turgut, Huzurevi Sk. No:5, 41200 İzmit/ Kocaeli",
+      "name":"Kocaeli Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı",
+      "criteria":[
+      ],
+      "telephone_number":"2623253066",
+      "duration":"24 saat",
+      "latitude":40.773943344448064,
+      "longitude": 29.917482066783965},
+
+    {"address":"Sanayi, Ömer Türkçakal Blv. D:34 41040, İzmit/ Kocaeli",
+      "name":"Kocaeli Büyükşehir Engelli ve Yaşlı Hizmetleri Şube Müdürlüğü",
+      "type":"Belediye",
+      "target_audience":"Engelli ve Yaşlı",
+      "criteria":[
+      ],
+      "telephone_number":"2623183809",
+      "duration":"08.00-17.00",
+      "latitude":40.74518499160377,
+      "longitude": 29.944116941692776},
+
+    {"address":"Ömerağa, Ömerağa Mahallesi, Abdurrahman Yüksel Cad. Belsa Plaza No:9 D:A-Blok,  41300 İzmit/ Kocaeli",
+      "name":"İzmit Belediyesi",
+      "type":"Belediye",
+      "target_audience":"Herkes",
+      "criteria":[
+      ],
+      "telephone_number":"2623180000",
+      "duration":"08.00-17.00",
+      "latitude":40.764760959633804,
+      "longitude": 29.92992010356992},
+
+    {"address":"Körfez Mah. Ankara Karayolu Cad. NO:129 Valilik Binası İzmit/ Kocaeli",
+      "name":"Kocaeli İl Sivil Toplumla İlişkiler Müdürlüğü",
+      "type":"Belediye",
+      "target_audience":"Herkes",
+      "criteria":[
+      ],
+      "telephone_number":"02623310357-kocaeli.dernekler@içişleri.gov.tr",
+      "duration":"08.00-17.00",
+      "latitude":40.76466386146974,
+      "longitude": 29.945585866783436},
+
+    {"address":"İzmit Yürüyüş yolu, Kuyumcular Çarşısı üstü Fevziye Camii karşısı. Belediye işhanı 2.kat no:75, 41500 İzmit/Kocaeli",
+      "name":"Kocaeli Sağlık Çalışanları Derneği(Sağlıkça)",
+      "type":"Dernek",
+      "target_audience":"Sağlık",
+      "criteria":[
+      ],
+      "telephone_number":"5550414111",
+      "duration":"24 saat",
+      "latitude":40.762195229207805,
+      "longitude": 29.926609037947934},
+
+  ],
 };
 
 const tempCoordinates =
