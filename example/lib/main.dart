@@ -601,7 +601,7 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "longitude": 29.945585866783436},
 
     {"address":"İzmit Yürüyüş yolu, Kuyumcular Çarşısı üstü Fevziye Camii karşısı. Belediye işhanı 2.kat no:75, 41500 İzmit/Kocaeli",
-      "name":"Kocaeli Sağlık Çalışanları Derneği(Sağlıkça)",
+      "name":"Kocaeli Sağlık Çalışanları Derneği (Sağlıkça)",
       "type":"Dernek",
       "target_audience":"Sağlık",
       "criteria":[
@@ -848,10 +848,13 @@ class _HomeViewState extends State<HomeView> {
                       List<Marker> markers = [];
                       for(Map t in targetList){
                         var name = "";
-                        for(int i=0; i<(t['name'] as String).length;i++){
-                           if(i%30==0)
+                        var split_name = (t['name'] as String).split(' ');
+                        var count =0;
+                        for(var n in split_name){
+                          if(count%2==0)
                              name+="\n";
-                           name += (t['name'] as String)[i];
+                          name+="${n} ";
+                          count++;
                         }
                         var rand_index = random.nextInt(colors.length);
                         if(t['latitude'] != null  && t['longitude']!=null)
@@ -861,23 +864,32 @@ class _HomeViewState extends State<HomeView> {
                             ),
                             width:200,
                             height: 200,
-                            builder:(context) => Row(
-                              children: [
+                            builder:(context) =>
                                Stack(
                                  children: [
                                    Positioned(child: Row(
                                      children: [
                                        Icon(Icons.location_on,color: colors[rand_index],size:50,),
-                                       Text('${name.toUpperCase()}',style: TextStyle(color: Colors.white,
+                                       RichText(text: TextSpan(
+                                         text: '${name.toUpperCase()}',
+                                         style: TextStyle(color: Colors.white,
+                                             fontSize:10,
+                                             fontWeight: FontWeight.bold,
+                                             backgroundColor: Colors.black),
+                                       )),
+                                       /*
+                                       Text('${name.toUpperCase()}',
+                                       style: TextStyle(color: Colors.white,
                                            fontSize:8,
                                            fontWeight: FontWeight.bold,
                                            backgroundColor: Colors.black),)
+                                        */
                                      ],
                                    )),
                                  ],
                                )
-                              ],
-                            )));
+
+                             ));
                       }
                       mapData.update("markers", (value) =>markers);
                       mapData.update("latitude", (value) =>tempCoordinates[cityName]!['latitude'] as double);
@@ -917,10 +929,13 @@ class _HomeViewState extends State<HomeView> {
                                 if(targetData.containsKey(cityName)){
                                   List<Marker> markers = [];
                                   var name = "";
-                                  for(int i=0; i<((targetData[selectedCity!.title] as List)[index]['name'] as String).length;i++){
-                                    if(i%30==0)
+                                  var split_name = ((targetData[selectedCity!.title] as List)[index]['name'] as String).split(' ');
+                                  var count =0;
+                                  for(var n in split_name){
+                                    if(count%2==0)
                                       name+="\n";
-                                    name += ((targetData[selectedCity!.title] as List)[index]['name'] as String)[i];
+                                    name+="${n} ";
+                                    count++;
                                   }
                                   var rand_index = random.nextInt(colors.length);
                                   if((targetData[selectedCity!.title] as List)[index]['latitude'] != null &&
@@ -932,8 +947,7 @@ class _HomeViewState extends State<HomeView> {
                                         ),
                                         width:200,
                                         height: 200,
-                                        builder:(context) => Row(
-                                          children: [
+                                        builder:(context) =>
                                             Stack(
                                               children: [
                                                 Positioned(child: Row(
@@ -941,15 +955,14 @@ class _HomeViewState extends State<HomeView> {
                                                     Icon(Icons.location_on,color: colors[rand_index],size:50,),
                                                     Text('${(name.toUpperCase())}',
                                                       style: TextStyle(color: Colors.white,
-                                                          fontSize:8,
+                                                          fontSize:10,
                                                           fontWeight: FontWeight.bold,
                                                           backgroundColor: Colors.black),)
                                                   ],
                                                 )),
                                               ],
                                             )
-                                          ],
-                                        )));
+                                          ));
                                   mapData.update("markers", (value) =>markers);
                                   mapData.update("latitude", (value) =>markers[0].point.latitude);
                                   mapData.update("longitude", (value) =>markers[0].point.longitude);
