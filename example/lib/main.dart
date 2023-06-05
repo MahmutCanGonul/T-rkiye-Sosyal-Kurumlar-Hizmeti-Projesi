@@ -612,6 +612,161 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "longitude": 29.926609037947934},
 
   ],
+  'İzmir':[
+    {"address":"Aydoğdu Mahallesi 1263 Sokak No:1 D Evka -1 Buca İZMİR",
+      "name":"Zübeyde Hanım Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "Kabul Şartları"
+        "1- Huzurevi bölümüne kabul koşulları"
+
+        "60 ve üzeri yaşta,"
+        "Günlük yaşama faaliyetlerini (yeme, içme, tuvalet gibi) bağımsız yapabilecek nitelikte"
+        "Yatalak ya da devamlı yatarak tıbbi tedavi ve bakıma ihtiyacı olmamak"
+        "Beden fonksiyonlarında kendi ihtiyacını karşılamasına engel olacak sakatlığı ve bir hastalığı bulunmamak"
+        "Ruh sağlığının yerinde olması"
+        "Bulaşıcı ve sürekli tedaviyi gerektiren ağır hastalıklara sahip olmamak"
+        "Uyuşturucu madde kullanmamak ve alkol bağımlısı olmamak"
+        "Sosyal ve ekonomik yoksunluk içinde bulunduğu “Sosyal İnceleme Raporu” ile saptanmış olmak"
+
+        "2- Bakım ve rehabilitasyon bölümüne kabul koşulları"
+
+        "60 ve daha yukarı yaşlarda olmak"
+        "Bedensel ve zihinsel gerilemeleri nedeniyle süreli ya da sürekli olarak ilgiye, desteğe, korunmaya ve rehabilitasyona gereksinimi olmak,"
+        "Ruh sağlığı yerinde olmak,"
+        "Uyuşturucu madde kullanmamak ve alkol bağımlısı olmamak"
+        "Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış olmak."
+
+        "Başvuru Evrakları"
+        "Başvuru Dilekçesi"
+        "Nüfus Cüzdan Aslı ve Fotokopisi"
+        "SGK Gelir Dökümü"
+        "4 Adet Fotoğraf"
+        "Sağlık Kurulu Raporu (Huzurevine Yerleşme Aşamasında)"
+      ],
+      "telephone_number":"Tel :0232 293 97 07  Faks:0.232 293 96 10",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.40243906592842,
+      "longitude": 27.15157283795505},
+
+
+    {"address":"Kuvvetli, 35763 Ödemiş/İzmir",
+      "name":"Mutahhar Şerif Başoğlu Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "* 60 yaşının üzerinde olmak   * bakıma muhtaç olmak"
+      ],
+      "telephone_number":"0232 544 36 33",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.232153103210685,
+      "longitude": 27.963435349590473},
+
+    {"address":"Atatürk, Şht. Er Ercüment Bozdoğan Cd. No:25, 35920 Selçuk/İzmir",
+      "name":"Akıncılar Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+       "Yaşlı Kabulü İçin Gerekli Şartlar:"
+"60 yaş ve üzeri yaşlarda olmak,"
+    "Kendi gereksinimlerini karşılamasını engelleyici bir rahatsızlığı bulunmamak yeme, içme, banyo, "
+"tuvalet ve bunun gibi günlük yaşam etkinliklerini bağımsız olarak yapabilecek durumda olmak,"
+"Ruh sağlığı yerinde olmak,"
+    "Bulaşıcı hastalığı olmamak,"
+"Uyuşturucu madde ya da alkol bağımlısı olmamak,"
+"Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu 'Sosyal İnceleme Raporu' ile saptanmış olmak."
+"En az iki yıl Selçuk’ta ikamet etmiş olmak."
+      ],
+      "telephone_number":"0232 892 72 54 &&  E-posta: huzurevi@selcuk.bel.tr",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":37.944670501772954,
+      "longitude": 27.366166910944003},
+
+    {"address":"Nafiz Gürman Mah. 7160 Sok. No: 4 Bayraklı/İZMİR",
+      "name":"Şehit Asteğmen Adem Dertsiz Yaşlı Bakım Ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+       "60 yaş üzerinde olmalı ve  tamamen bağımsız  bir şekilde özyeterliliğini yerine getirebilmeli"
+      ],
+      "telephone_number":"0232 3638083",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.478469654686165,
+      "longitude": 27.138770493781298},
+
+    {"address":"Aydoğdu mah. 1263 sk. no :5 Evka 1 Buca-İzmir",
+      "name":"Nevvar Salih İşgören Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "60 yaş üzerinde olmalı ve  tamamen bağımsız  bir şekilde özyeterliliğini yerine getirebilmeli"
+      ],
+      "telephone_number":"0232 3747414",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.39792263923903,
+      "longitude": 27.10137589562585},
+
+    {"address":"Atatürk Mah. 174.sk No:3 Foça-İZMİR",
+      "name":"Foça Reha Midilli Necla Ana Huzurevi Müdürlüğü",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "60 yaş üzerinde olmalı ve  tamamen bağımsız  bir şekilde özyeterliliğini yerine getirebilmeli"
+      ],
+      "telephone_number":"0232 8121241",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.65847288546897,
+      "longitude": 26.753346266804378},
+
+    {"address":"Atatürk Mah. 174.sk No:3 Foça-İZMİR",
+      "name":"Foça Reha Midilli Necla Ana Huzurevi Müdürlüğü",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "60 yaş üzerinde olmalı ve  tamamen bağımsız  bir şekilde özyeterliliğini yerine getirebilmeli"
+      ],
+      "telephone_number":"0232 8121241",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.65847288546897,
+      "longitude": 26.753346266804378},
+
+    {"address":"Hasan Tahsin Cad. 219. Sok. No: 3 Basınsitesi-Karabağlar- İzmir",
+      "name":"İzmir Huzurevi Yaşlı Bakım Ve Rehabilitasyon Merkezi Müdürlüğü",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "60 yaş üzerinde olmalı ve  tamamen bağımsız  bir şekilde özyeterliliğini yerine getirebilmeli"
+      ],
+      "telephone_number":"0232 2434460",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.396385165829216,
+      "longitude": 27.101983147199213},
+
+    {"address":"Huzur Mah. Öğretmenler Sk. No:7 Narlıdere-İzmir",
+      "name":"Narlıdere Huzurevi Yaşlı Bakım Ve Rehabilitasyon Merkezi Müdürlüğü",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "60 yaş üzerinde olmalı ve  tamamen bağımsız  bir şekilde özyeterliliğini yerine getirebilmeli"
+      ],
+      "telephone_number":"0232 9712525",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.393972074950774,
+      "longitude": 26.993905449047976},
+
+    {"address":"Cumhuriyet Mah. 2026 Sk No:5 Torbalı/İzmir",
+      "name":"Torbalı Huzurevi Yaşlı Bakım Ve Rehabilitasyon Merkezi Müdürlüğü",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "60 yaş üzerinde olmalı ve  tamamen bağımsız  bir şekilde özyeterliliğini yerine getirebilmeli"
+      ],
+      "telephone_number":"0232 8555222",
+      "duration":"Hafta içi:08.30-17.00",
+      "latitude":38.162693685049526,
+      "longitude": 27.34847453794218},
+  ],
 };
 
 const tempCoordinates =
