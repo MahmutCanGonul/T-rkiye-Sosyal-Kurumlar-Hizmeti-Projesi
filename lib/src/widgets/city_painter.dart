@@ -54,7 +54,6 @@ class CityPainter extends CustomPainter {
     }
     if(currentCities.contains(city.title))
       canvas.drawCircle(bounds.center, 3.0, redDot);
-
     canvas.drawPath(city.path, pen);
   }
 

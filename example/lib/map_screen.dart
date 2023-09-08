@@ -18,7 +18,7 @@ class MapScreenState extends State<MapScreen>{
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.cityName} Haritası'),
+        title: Text('${widget.cityName} Haritası (Mouse ile Haritayı yakınlaştırabilirsiniz)'),
         centerTitle: false,
       ),
       body: FlutterMap(

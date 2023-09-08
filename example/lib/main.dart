@@ -8,7 +8,6 @@ import 'package:city_picker_from_map/city_picker_from_map.dart';
 import 'dart:convert';
 import 'package:latlong2/latlong.dart' as latLng;
 import 'package:url_launcher/url_launcher.dart';
-
 var colors = [
   Colors.purple,
   Colors.blue,
@@ -832,7 +831,6 @@ class _HomeViewState extends State<HomeView> {
   final GlobalKey<CityPickerMapState> _mapKey = GlobalKey();
   final url = "https://turkiyeapi.cyclic.app/api/v1/provinces?name=";
   var provinces = [];
-  var population=0;
   List<Widget> targetAddressList = [];
   Color selected_color = Colors.teal;
  @override
@@ -900,7 +898,6 @@ class _HomeViewState extends State<HomeView> {
               icon: Icon(Icons.delete, color: Colors.red),
               onPressed: () {
                 _mapKey.currentState?.clearSelect();
-                population=0;
                 provinces.clear();
                 setState(() {
                   selectedCity = null;
@@ -975,7 +972,7 @@ class _HomeViewState extends State<HomeView> {
                     });
                   }
                   else{
-                    population=0;
+                    selected_color=Colors.white;
                     provinces.clear();
                   }
                   setState(() {
@@ -1214,7 +1211,8 @@ class _HomeViewState extends State<HomeView> {
                                           TextSpan(
                                               text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
                                               style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)
-                                          )],
+                                          ),
+                                          ],
                                       ))), icon: Icon(Icons.info,size: 20,color: Colors.pink,)):SizedBox.shrink(),
                                 ],
                               ),

@@ -23,8 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  city_picker_from_map:
-    path: ../../city_picker_from_map
+  city_picker_from_map: any
 
 
   # The following adds the Cupertino Icons font to your application.
