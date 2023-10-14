@@ -1626,7 +1626,7 @@ class _HomeViewState extends State<HomeView> {
                 },
                 child: CircleAvatar(
                   //backgroundColor: Colors.purpleAccent,
-                  backgroundImage:AssetImage('images/stdv.jpeg'),
+                  backgroundImage:NetworkImage('https://pbs.twimg.com/profile_images/1479052515786301440/H6JrNSS3_400x400.png'),
                   radius: 30,
                 ),
               ),
@@ -1637,7 +1637,7 @@ class _HomeViewState extends State<HomeView> {
                   await launchUrl(Uri.parse('https://www.agesa.com.tr/'));
                 },
                 child: CircleAvatar(
-                  backgroundImage: AssetImage('images/agesa.jpeg'),
+                  backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1639221503362322434/-8t9grci_400x400.jpg'),
                   radius: 30,
                 ),
               ),
@@ -1778,7 +1778,7 @@ class _HomeViewState extends State<HomeView> {
               selectedCity != null  &&
                   targetData.containsKey(selectedCity!.title)
                   ?
-              Expanded(child: SizedBox(
+               Expanded(
                 child: ListView.builder(
                     shrinkWrap: true,
                     itemCount:(targetData[selectedCity!.title] as List).length,
@@ -1935,8 +1935,7 @@ class _HomeViewState extends State<HomeView> {
                         ],
                       );
                     }),
-
-              )):SizedBox.shrink(),
+               ):SizedBox.shrink(),
         ],
       ),
     );
