@@ -1358,8 +1358,124 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":39.894384926539566,
       "longitude": 32.81957250739893},
 
-  ],
 
+      {"address":"Saray Osmangazi, 06145 Pursaklar/Ankara",
+      "name":"Öğretmen Necla Kızılbağ Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler.',
+
+        ],
+      "telephone_number":"(0312) 399 55 61",
+      "duration":"Haftaiçi 08:30-17:00",
+      "latitude":40.071207562034616,
+      "longitude": 32.937447299999995},
+
+      {"address":"Melikşah Mahallesi Küme Evleri No:2 Çubuk/ANKARA",
+      "name":"Süleyman Demirel Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler.',
+
+        ],
+      "telephone_number":"(0312) 827 20 21",
+      "duration":"Haftaiçi 08:30-17:00",
+      "latitude":40.15534920679285,
+      "longitude": 32.9669119306854},
+
+
+      {"address":"1 Kozan Sokak Tatlıca Mahallesi, 06780 Elmadağ/Ankara",
+      "name":"Elmadağ Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi ",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler.',
+
+        ],
+      "telephone_number":"(0312) 863 00 51",
+      "duration":"Haftaiçi 08:30-17:00",
+      "latitude":39.909564533807114,
+      "longitude":  33.2238893153427},
+
+
+      {"address":"Mehmet Akif Ersoy, 320. Sk., 06200 Yenimahalle / Ankara",
+      "name":"Demetevler Fatma Üçer Huzurevi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler.',
+
+        ],
+      "telephone_number":"(0312) 335 82 00",
+      "duration":"Haftaiçi 08:30-17:00",
+      "latitude":39.97304232936188,
+      "longitude":  32.77847430554919},
+
+
+      {"address":"Birlik, Katar Cd No:11, 06610, 06610 Çankaya/Ankara",
+      "name":"SGDD ASAM Sığınmacılar ve Göçmenlerle Dayanışma Derneği",
+      "type":"STK",
+      "target_audience":" Yardıma ihtiyaç duyan yaşlı bireyler (Afgan, Fransız, İranlı, Iraklı, Diğer milletlerden, Suriyeli, Türk, Ukraynalı)",
+      "criteria":[
+        "İhtiyaç sahibi olmak"
+        'Psikososyal Hizmetler: Bireysel danışmanlık, Temel Gıda Dışı Ürünler, Temel İhtiyaçlara Yönelik Dağıtım, Çoklu Nakit Yardımı, Hukuki Danışmanlık Sağlanması',
+
+        ],
+      "telephone_number":"(0312) 212 60 13",
+      "duration":"09:00-17:30",
+      "latitude":39.883883417960966,
+      "longitude":  32.86801525397189},
+
+
+      {"address":"Ankaralılar Cad. 2654. Sok. Park Alanı İçi  No:1 Çayyolu - Çankaya / ANKARA",
+      "name":"Uluslararası Yaşlılara Saygı Federasyonu",
+      "type":"STK",
+      "target_audience":"TC Vatandaşı yaşlı bireyler",
+      "criteria":[
+        "Yaşlı bir birey olmak"
+        'Psikososyal Hizmetler: Alanında uzman öğreticiler tarafından verilen resim, ebru, tezhip, dans, zumba, bağlama, keman, gitar, piyano, yan flüt, perküsyon ve plates kursları',
+
+        ],
+      "telephone_number":"(0312) 236 70 90",
+      "duration":"Bilinmiyor",
+      "latitude":39.89205623873116,
+      "longitude": 32.691040815342696},
+
+  ],
+  'Şanlıurfa':[
+     
+     {"address":"Yenice Mahallesi 5013. Sokak No:2 Eyyübiye / ŞANLIURFA",
+      "name":"Sosyal Hizmet Merkezi(SHM)",
+      "type":"Kamu Kurumu",
+      "target_audience":"İhtiyaç sahibi yaşlı birey",
+      "criteria":[
+        '65 üstü olmak\n',
+        '\nİhtiyaç sahibi olmak'
+        ],
+      "telephone_number":"+90 (414) 247 27 62",
+      "duration":"08.00-17.00",
+      "latitude":37.1073457,
+      "longitude":38.7932296},
+
+      {"address":"Paşabağı Mahallesi. Zafer Caddesi No: 44 Haliliye/ Şanlıurfa",
+      "name":"Engelliler Koordinasyon ve Yaşam Merkezi",
+      "type":"Kamu Kurumu",
+      "target_audience":"65 yaş üstü yaşlı ve engelli birey",
+      "criteria":[
+        '65 yaş üstü olmak,İhtiyaç sahibi olmak,Merkez ilçelerde ikamet ediyor olmak',
+        ],
+      "telephone_number":"+90 (414) 247 27 62",
+      "duration":"08.00-17.00",
+      "latitude":37.1566449,
+      "longitude": 38.797316},
+
+  ],
 };
 
 const tempCoordinates =
@@ -1653,7 +1769,10 @@ class _HomeViewState extends State<HomeView> {
                   }
                 },
                 child: Text('TÜM KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pink,fontWeight: FontWeight.bold),),
-              ):SizedBox.shrink(),
+              ): selectedCity!=null && !targetData.containsKey(selectedCity!.title) ? 
+              Text(' ${selectedCity!.title} şehrinin verileri hazırlanma aşamasındadır.',
+              style: TextStyle(color: Colors.pink,fontWeight: FontWeight.bold,fontSize: 25),)
+              :SizedBox.shrink(),
             ],
           ),
               selectedCity != null  &&
