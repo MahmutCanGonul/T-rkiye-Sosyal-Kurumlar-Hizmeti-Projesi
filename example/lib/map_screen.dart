@@ -18,7 +18,16 @@ class MapScreenState extends State<MapScreen>{
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.cityName} Haritası (Mouse ile Haritayı yakınlaştırabilirsiniz)'),
+        title: RichText(
+          text: TextSpan(
+            text: '${widget.cityName} Haritası ',
+            style: TextStyle(color: Colors.pink,fontSize: 25,fontWeight: FontWeight.bold),
+            children: [
+              TextSpan(text: ' (Mouse ile Haritayı yakınlaştırabilir ya da uzaklaştırabilirsiniz)',
+              style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold))
+            ],
+          ),
+        ),
         centerTitle: false,
       ),
       body: FlutterMap(

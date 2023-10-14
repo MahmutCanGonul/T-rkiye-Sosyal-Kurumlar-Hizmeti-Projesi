@@ -766,6 +766,600 @@ var targetData = { //İle göre belirlenmiş olan huzur evleri ilçe adreslerini
       "latitude":38.162693685049526,
       "longitude": 27.34847453794218},
   ],
+  'Aydın':[
+        {"address":"Yeni Mahalle. 850. Sokak. No:3/A. Didim – AYDIN",
+      "name":"Aydın Büyükşehir Belediyesi Didim Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "60 yaş üstü sağlıklı bireyler. ",
+        "Kurumun Sunduğu Psikososyal Hizmetler: Sosyal aktiviteler (piknik vs. ) psikoeğitimler, psikolog görüşmeleri",
+      ],
+      "telephone_number":"+902568110929",
+      "duration":"7/24",
+      "latitude":37.3720641,
+      "longitude": 27.2730650},
+  {"address":"Efeler Mah. Evliya Çelebi Cad. 30 Efeler, Aydın ",
+      "name":"Aydın Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "Bakıma muhtaç veya sosyal güvencesi olmayan, kimsesiz, özürlü-engelli yaşlılar kuruma başvuruda bulunabilirler. \nEmekli Sandığı, SSK, Bağ-Kur emeklileri ise cüzi bir oda ücreti ödeyerek huzur evinde kalabiliyorlar.",
+        "Kurumun Sunduğu Psikososyal Hizmetler: huzurevinde konaklama ve yemek hizmeti, sağlık kontrolleri, fiziksel bakım ve rehabilitasyon hizmeti, geziler, sosyal ve kültürel faaliyetler…",
+      ],
+      "telephone_number":"+902568110929",
+      "duration":"7/24",
+      "latitude":37.8420749,
+      "longitude": 27.8267238},
+
+      {"address":"Adnan Menderes Mahalllesi. 1028. Sokak. No: 28. Akbük, Didim – AYDIN",
+      "name":"Aydın Akbük Huzurevi",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+ "Bakıma muhtaç veya sosyal güvencesi olmayan, kimsesiz, özürlü-engelli yaşlılar kuruma başvuruda bulunabilirler. Emekli Sandığı, SSK, Bağ-Kur emeklileri ise, kaldıkları yerin özelliklerine göre değişen tek veya çift kişilik oda ücreti ödeyerek huzur evinde kalabiliyorlar.",
+      ],
+      "telephone_number":"+90(256)8565055",
+      "duration":"7/24",
+      "latitude":37.4069776,
+      "longitude": 27.4283594},
+
+        {"address":"Yenicamii Mahallesi. İkinci Bahar Sokak. No:6. Söke – AYDIN",
+      "name":"Aydın Söke Hilmi Fırat Huzurevi",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "Bakıma muhtaç veya sosyal güvencesi olmayan, kimsesiz, özürlü-engelli yaşlılar kuruma başvuruda bulunabilirler. Emekli Sandığı, SSK, Bağ-Kur emeklileri ise, kaldıkları yerin özelliklerine göre değişen tek veya çift kişilik oda ücreti ödeyerek huzur evinde kalabiliyorlar.",
+        "Kurumun Sunduğu Psikososyal Hizmetler: Huzurevinde konaklama ve yemek hizmeti, sağlık kontrolleri, geziler,  sosyal ve kültürel faaliyetler…",
+       ],
+      "telephone_number":"+902565187352",
+      "duration":"7/24",
+      "latitude":37.7597143,
+      "longitude": 27.4230290},
+
+      {"address":"Girne Mah. 2185 Sok. 1 Aydın Merkez, Aydın ",
+      "name":"AYDIN AİLE VE SOSYAL POLİTİKALAR MÜDÜRLÜĞÜ - HUZUREVİ YAŞLI BAKIM VE REHABİLİTASYON MERKEZİ",
+      "type":"Huzurevi",
+      "target_audience":"Yaşlılar",
+      "criteria":[
+        "Bakıma muhtaç veya sosyal güvencesi olmayan, kimsesiz, özürlü-engelli yaşlılar kuruma başvuruda bulunabilirler. Emekli Sandığı, SSK, Bağ-Kur emeklileri ise, kaldıkları yerin özelliklerine göre değişen tek veya çift kişilik oda ücreti ödeyerek huzur evinde kalabiliyorlar.",
+        "Kurumun Sunduğu Psikososyal Hizmetler: Huzurevinde konaklama ve yemek hizmeti, sağlık kontrolleri, geziler,  sosyal ve kültürel faaliyetler…",
+       ],
+      "telephone_number":"+902562191873",
+      "duration":"7/24",
+      "latitude":37.8480477,
+      "longitude": 27.8254352},
+      
+  ],
+  'Konya':[
+    {"address":"Köyceğiz Mahallesi. Köyceğiz Caddesi. Meram – KONYA",
+      "name":"Konya Dr.İsmail Işık Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Belediye",
+      "target_audience":"60 yaş üstü bireyler",
+      "criteria":[
+        "Bakıma muhtaç veya sosyal güvencesi olmayan, kimsesiz, özürlü-engelli yaşlılar kuruma başvuruda bulunabilirler. Emekli Sandığı, SSK, Bağ-Kur emeklileri ise cüzi bir oda ücreti ödeyerek huzurevinde kalabiliyorlar.",
+        "Kurumun Sunduğu Psikososyal Hizmetler: huzurevinde konaklama ve yemek hizmeti, sağlık kontrolleri, fiziksel bakım ve rehabilitasyon hizmeti, geziler, sosyal ve kültürel faaliyetler…",
+      ],
+      "telephone_number":"(332) 325 04 25",
+      "duration":"7/24",
+      "latitude":37.8625536,
+      "longitude": 32.4242067},
+
+      {"address":"Sille,Piribeyli Sok. No:5 42132 Selçuklu",
+      "name":"Sille Meliha Ercan Huzurevi",
+      "type":"Belediye",
+      "target_audience":"60 yaş üstü bireyler",
+      "criteria":[
+        "Devletin kabul gördüğü huzurevi kriterleri. Bulaşıcı hastalığı olmamalı ve psikozu olmamalı. ",
+        "Kurumun Sunduğu Psikososyal Hizmetler: Psikososyal değerlendirme, birebir görüşme, psikiyatrik tanısı olan hastalara psikiyatri takibi gerekli ise ilaç ve terapi desteği. ",
+      ],
+      "telephone_number":"(332) 325 04 25",
+      "duration":"7/24",
+      "latitude":37.930979,
+      "longitude": 32.4240836},
+  ],
+  'Erzurum':[
+
+    {"address":"yeğen ağa iş merkezi 3.kat kazım karabekir paşa mah. Yakutiye erzurum ",
+      "name":"ERZURUM BELEDİYESİ HAYIR ÇARŞISI",
+      "type":"Belediye",
+      "target_audience":"İHTİYAÇ SAHİBİ OLAN HERKESE",
+      "criteria":[
+          "TÜM İLÇELER İÇİN GEÇERLİ,",
+       ],
+      "telephone_number":"0442 215 09 09",
+      "duration":"HAFTA İÇİ 8.00-17.00",
+      "latitude":39.91030059058323,
+      "longitude": 41.28098757496138},
+
+       {"address":"erzurum belediyesi beyaz masa merkezi yönetim caddesi251000 ERZURUM",
+      "name":"ERZURUM BELEDİYESİ ENGELLİ BİRİMİ",
+      "type":"Belediye",
+      "target_audience":"Emekli parası almayan yaşlı ,engelli bireyler,",
+      "criteria":[
+          "TÜM İLÇELER İÇİN GEÇERLİ,",
+       ],
+      "telephone_number":"0442 344 11 35/engelli.hizmetleri@erzurum.bel.tr",
+      "duration":"HAFTA İÇİ 8.00-17.00",
+      "latitude":39.90468193164019,
+      "longitude": 41.261757388202334},
+
+      {"address":"Rabiana Mahallesi Atatürk Lisesi Sok. No:1 Yakutiye Erzurum",
+      "name":"ERZURUM SOSYAL HİZMETLER İL MÜDÜRLÜĞÜ",
+      "type":"DARÜLACEZE DESTEĞİ İLE",
+      "target_audience":"YAŞLI , ENGELLİ ",
+      "criteria":[
+          "YAKUTİYE SINIRLARI İÇERİSİNDE YAŞIYOR OLMAK",
+       ],
+      "telephone_number":"0442 234 15 41/0442 234 15 43/ erzurum@ailevecalisma.gov.tr",
+      "duration":"HAFTA İÇİ 8.00-17.00",
+      "latitude":39.89943183946708,
+      "longitude": 41.27721683416921},
+
+      {"address":"SELÇUKLU MAH. BELEDİYE ÖNÜ SOK. NO:1 AZİZİYE ERZURUM",
+      "name":"AZİZİYE BELEDİYESİ",
+      "type":"BELEDİYE",
+      "target_audience":"İHTİYAÇ SAHİBİ VE YAŞLI OLMAK",
+      "criteria":[
+          "AZİZİYE SINIRLARI İÇERİSİNDE YAŞIYOR OLMAK",
+       ],
+      "telephone_number":"444 91 25/aziziye@erzurumaziziye.bel.tr",
+      "duration":"HAFTA İÇİ 8.00-17.00",
+      "latitude":39.94651737076235,
+      "longitude": 41.10543494972458},
+  ],
+  'Eskişehir':[
+
+     {"address":"Ankara Yolu 14.Km Odunpazarı / ESKİŞEHİR",
+      "name":"Halis Toprak Huzurevi Yaşlı  Bakım ve Rehabilitasyon Merkezi",
+      "type":"Aile ve Sosyal Hizmetler Bakanlığı",
+      "target_audience":"",
+      "criteria":[
+          "(Huzurevi ve Yaşlı Bakım Rehabilitasyon Merkezleri Yönetmeliğine göre) \n1. 60 ve üzeri yaşlarda olmak \n2. Bedensel ve zihinsel gerilemeleri nedeniyle süreli ya da sürekli olarak özel ilgi, desteğe, korunmaya ve rehabilitasyona gereksinimi olmak \n3. Ruh sağlığı yerinde olmak \n4. Bulaşıcı hastalığı olmamak \n5. Uyuşturucu madde ya da alkol bağımlısı olmamak \n6. Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış olmak",
+          "\nKurumun Sunduğu Psikososyoal Hizmetler: yok, durumu ağır yaşlılar olduğu için rehabilitasyon merkezlerinde pek olmuyor",
+        ],
+      "telephone_number":"0222 2282047",
+      "duration":"Devamlı 0:00-24:00",
+      "latitude":39.737773520581605,
+      "longitude": 30.63317736931177},
+
+      {"address":"Huzur Mh. Yıldızlar Sk. No: 44 Aile ve Sosyal Hizmetler Kampüsü Odunpazarı / ESKİŞEHİR",
+      "name":"Hacı Süleyman Çakır Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Aile ve Sosyal Hizmetler Bakanlığı",
+      "target_audience":"",
+      "criteria":[
+          "(Huzurevi ve Yaşlı Bakım Rehabilitasyon Merkezleri Yönetmeliğine göre) \n1. 60 ve üzeri yaşlarda olmak \n2. Bedensel ve zihinsel gerilemeleri nedeniyle süreli ya da sürekli olarak özel ilgi, desteğe, korunmaya ve rehabilitasyona gereksinimi olmak \n3. Ruh sağlığı yerinde olmak \n4. Bulaşıcı hastalığı olmamak \n5. Uyuşturucu madde ya da alkol bağımlısı olmamak \n6. Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış olmak",
+          "\nNOT: telefonda bilgi vermek için il müdürlüğünden izin istiyorlar - kurum psikologu ile konuşuldu",
+        ],
+      "telephone_number":"0222 310 05 18",
+      "duration":"Devamlı 0:00-24:00",
+      "latitude":39.761031378467685,
+      "longitude": 30.543252180058417},
+
+
+      {"address":"Vadişehir Mah. Tekin Alp Cd. No:73 ",
+      "name":"Lütfi Yüksel Yaşlı Bakım Merkezi",
+      "type":"Belediye",
+      "target_audience":"55 yaş ve üzeri, ruh sağlığı yerinde olup,  bulaşıcı hastalığı olmayan, yatağa bağımlı ya da fiziksel ve zihinsel gerilemeleri nedeniyle  özel ilgi, destek ve koruma gerektiren yaşlılar",
+      "criteria":[
+          "(Huzurevi ve Yaşlı Bakım Rehabilitasyon Merkezleri Yönetmeliğine göre) \n1. 55 ve üzeri yaşlarda olmak \n2. Bedensel ve zihinsel gerilemeleri nedeniyle süreli ya da sürekli olarak özel ilgi, desteğe, korunmaya ve rehabilitasyona gereksinimi olmak \n3. Ruh sağlığı yerinde olmak \n4. Bulaşıcı hastalığı olmamak \n5. Uyuşturucu madde ya da alkol bağımlısı olmamak \n6. Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış olmak",
+          "\nNOT: telefonda bilgi vermek için il müdürlüğünden izin istiyorlar",
+        ],
+      "telephone_number":"0222 237 25 93",
+      "duration":"Devamlı 0:00-24:00",
+      "latitude":39.73728537840351,
+      "longitude": 30.54850906671364},
+    
+
+    {"address":"Huzur Mh. Yıldızlar Sk. No: 44 Aile ve Sosyal Hizmetler Kampüsü Odunpazarı / ESKİŞEHİR",
+      "name":"Maide Bolel Huzurevi",
+      "type":"Aile ve Sosyal Hizmetler Bakanlığı",
+      "target_audience":"60 yaş ve üzerindeki sosyal ve/veya ekonomik yönden yoksunluk içinde olup, korunmaya, bakıma ve yardıma muhtaç olan kişiler",
+      "criteria":[
+          "(Huzurevi ve Yaşlı Bakım Rehabilitasyon Merkezleri Yönetmeliğine göre) \n1. 60 ve üzeri yaşlarda olmak \n2. Bedensel ve zihinsel gerilemeleri nedeniyle süreli ya da sürekli olarak özel ilgi, desteğe, korunmaya ve rehabilitasyona gereksinimi olmak \n3. Ruh sağlığı yerinde olmak \n4. Bulaşıcı hastalığı olmamak \n5. Uyuşturucu madde ya da alkol bağımlısı olmamak \n6. Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış olmak",
+          "\nNOT: telefonda bilgi vermek için il müdürlüğünden izin istiyorlar",
+        ],
+      "telephone_number":"0222 219 08 82",
+      "duration":"Devamlı 0:00-24:00",
+      "latitude":39.758750660628344,
+      "longitude": 30.534368066714876},
+
+
+
+       {"address":"Emek Mh. Bengül Sk.(Zümrüt Parkı içi) No: 1, 26080, Odunpazarı/Eskişehir",
+      "name":"Koca Çınar Yaşam Merkezi",
+      "type":"Odunpazarı Belediyesi Kadın ve Aile Hizmetleri Müdürlüğü",
+      "target_audience":"60 Yaş ve üzeri ",
+      "criteria":[
+              "Psikososyal Hizmetler: Bireylerin fiziksel, ruhsal durumlarına bağlı olarak beceri ve el sanatları, resim, tiyatro, hafıza oyunları, kütüphane gibi kültürel faaliyetlerin yanı sıra psikolojik destek, sağlıklı yaşlanmaya yönelik aktivite-eğitim çalışmaları yapılıyor.",
+              "NOT: telefonda bilgi vermek için müdürlüğü aramamızı istediler"
+       ],
+      "telephone_number":"0 222 213 3030 – 3066",
+      "duration":"08:00 - 17.00",
+      "latitude":39.74497271236882,
+      "longitude": 30.570754526701688},
+
+
+
+      {"address":"Kadir Akkaş (Üniversite Evleri) Halk Merkezi: Gültepe Mahallesi Üniversite Evleri Nusret Sokak No:B2",
+      "name":"Koca Çınar Yaşam Merkezi - 2",
+      "type":"Odunpazarı Belediyesi Kadın ve Aile Hizmetleri Müdürlüğü",
+      "target_audience":"60 Yaş ve üzeri ",
+      "criteria":[
+              "Psikososyla Hizmetler: Çok amaçlı salon, faaliyet salonu, kuaför salonu, sağlık birimi, mescit, yemek salonu, mutfak, hobi bahçesi ve kütüphanenin bulunduğu Koca Çınar 2’de, kıdemli vatandaşların üretmeleri ve eğlenmeleri için de çeşitli aktiviteler düzenleniyor.",
+       ],
+      "telephone_number":"0 222 237 12 86",
+      "duration":"08:00 - 17.00",
+      "latitude":39.743405160648415,
+      "longitude": 30.511455767180795},
+
+
+      {"address":"Şirintepe Mh.,Orhan Kemal Sk. No:1, 26200 Tepebaşı/Eskişehir, Türkiye",
+      "name":"Safiye Gönül Bayar Huzurevi",
+      "type":"Aile ve Sosyal Hizmetler Bakanlığı ",
+      "target_audience":"Genelde daha önce çalışma hayatı olmuş, kendi özbakımlarını vs. yapabilen nispeten sağlıklı kişiler",
+      "criteria":[
+      "1. 60 ve üzeri yaşlarda olmak \n2. Bedensel ve zihinsel gerilemeleri nedeniyle süreli ya da sürekli olarak özel ilgi, desteğe, korunmaya ve rehabilitasyona gereksinimi olmak \n3. Ruh sağlığı yerinde olmak \n4. Bulaşıcı hastalığı olmamak \n5. Uyuşturucu madde ya da alkol bağımlısı olmamak \n6. Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış olmak",
+      "Sunulan Psikososyal Hizmetler: Kurumda bir sosyal çalışmacı ve bir psikolog bulunmakta. En az ayda bir kez olmak üzere hava şartlarına da bağlı olarak etkinlikler (piknik, gezi, vs.) Dışarıdan gelen gönüllü grupların yürüttüğü etkinlikler Özel günlerde etkinlikler (anneler/babalar günü, yaşlılar haftası vs.) Yeni gelen bir yaşlının ilk 1 ayı oryantasyontasyon süreci olarak değerlendirilip gerek görüldüğü şekilde takip ediliyor  Kişilerarası problemler ortaya çıktığında görüşmeler yapılıyor Bunların dışında rutin yok, gerek görüldükçe görüşme ve destek sağlanıyor."
+      ],
+      "telephone_number":"0222 325 04 91",
+      "duration":"Devamlı 00:00-24:00",
+      "latitude":39.80193583402099,
+      "longitude": 30.487556084656042},
+      
+
+
+      {"address":"Namık Kemal, Hayat Cd. Ar., 10405 Tepebaşı/Eskişehir, Türkiye",
+      "name":"Alzheimer Konukevi ve Yaşam Köyü",
+      "type":"Belediye",
+      "target_audience":"sadece Alzheimer hastaları",
+      "criteria":[
+      "1. 60 ve üzeri yaşlarda olmak \n2. Bedensel ve zihinsel gerilemeleri nedeniyle süreli ya da sürekli olarak özel ilgi, desteğe, korunmaya ve rehabilitasyona gereksinimi olmak \n3. Ruh sağlığı yerinde olmak \n4. Bulaşıcı hastalığı olmamak \n5. Uyuşturucu madde ya da alkol bağımlısı olmamak \n6. Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış olmak",
+      "Sunulan Psikososyal Hizmetler:  Websitesinden: Gün içerisinde psikolog ve sosyal hizmet uzmanı bulunmaktadır. Psikoloğumuz ve hasta bakım elemanlarımız tarafından hastalarla birlikte zihinsel ve bedensel faaliyetlerini güçlendirecek, sağlık durumlarına uygun eğitici etkinlikler ve yürüyüşler yapılmakta, daha etkili ve keyifli zaman geçirmeleri sağlanmaktadır. Özel günlerde (bayramlar, yaşlılar haftası, yılbaşı vb.) hastalarımızın sosyal yaşama katılımlarını ve keyifli vakit geçirmelerini sağlamak amacıyla sağlık durumlarına uygun etkinlikler düzenlenmektedir."
+      "NOT: 57 villanın dönüşüm kapsamında yenilenmesi ile oluşturulan Yaşam Köyü’nde, Alzheimer hastalarını misafir edecek konukevinden, çocuklara oyun alanı oluşturan kreşe, çeşitli etkinliklerin yapılacağı beceri ve sanat atölyesinden, fizyoterapi merkezine kadar toplumun tüm kesiminin sosyal hayata katılmasına yardımcı olacak tesis bulunuyor.  Bakım desteği gereken çocukların, yaşlıların, Alzheimer ya da engelli bireylerin hem konaklayabileceği hem tedavilerini sürdürebileceği hatta sosyalleşip, istihdam edilebilecekleri bir köy kurduk."
+      ],
+      "telephone_number":"0222 314 07 56",
+      "duration":"Devamlı 00:00-24:00",
+      "latitude":39.81273306618341,
+      "longitude": 30.445189459695438},
+
+
+      {"address":"Camikebir Mh. Eskişehir Cd. Mihalıççık/eskişehir",
+      "name":"TÜRKİYE GÜÇSÜZLER VE KİMSESİZLERE YARDIM VAKFI SELAMİ VARDAR YAŞLILAR KÖŞKÜ",
+      "type":"TÜRKİYE GÜÇSÜZLER VE KİMSESİZLERE YARDIM VAKFI ",
+      "target_audience":"Ailesi tarafından çeşitli sebeplerle kabul edilmeyen ve bir kurumda kalması için başvuran tüm kişiler",
+      "criteria":[
+        "Yaş sınırı olmadığı belirtildi ama resmi olarak huzurevi statüsünde geçiyormuş ve devlet son zamanlarda buna göre kontrol etmeye başlamış, örneğin kendi gereksinimlerini (yeme-içme gibi) karşılayamayacak durumdaki kişileri alamıyorlarmış artık.  Emekli maaşı varsa buna göre (kendi ihtiyaçlarına imkan kalacak şekilde) ücret alınıyor, emekli maaşı yoksa ücretsiz kalınabiliyor.",
+       "Sunulan Psikososyal Hizmetler:  Haftada 2 gün çeşitli etkinlikler yapılıyor İhtiyaç gözlemlendiğinde, örneğin yaşlı içine kapandığında, bire bir veya grup haline görüşme yapılıyor",
+      ],
+      "telephone_number":"0222 631 29 00",
+      "duration":"Devamlı 00:00-24:00",
+      "latitude":39.984563604814795,
+      "longitude": 32.86457145369996},
+
+  ],
+  'Antalya':[
+       
+        {"address":"Kütükçü Mahallesi Şelale Caddesi No:201 07060 Kepez/Antalya",
+      "name":"Kepez Belediyesi Şefkat ve Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+            "65 Yaş üstü olmak"
+         ],
+      "telephone_number":"(0242) 326 12 12",
+      "duration":"Hafta içi ve Cumartesi 9:00-17:00",
+      "latitude":36.93524590520578,
+      "longitude": 30.70260595187442},
+
+      {"address":"Yeşilbayır, 07190 Döşemealtı/Antalya",
+      "name":"Antalya Büyükşehir Belediyesi, Sosyal Hizmetler Daire Başkanlığı, Döşemealtı Halil Akyüz Huzurevi",
+      "type":"Belediye",
+      "target_audience":"Yaşlı, Bakıma muhtaç  ",
+      "criteria":[
+            "65 Yaş üstü olmak",
+            "Psikososyal Hizmetler: Günaydın toplantıları ve arada bireysel konuşma mevcut, birlikte etkinlik yok."
+         ],
+      "telephone_number":"2424431769",
+      "duration":"Hafta içi ve Cumartesi 9:00-17:00",
+      "latitude":36.990344958151006,
+      "longitude": 30.612317065369155},
+
+      {"address":"Güzeloba, Eski, Lara Cd. No:505, 07100 Muratpaşa/Antalya",
+      "name":"Antalya Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi Müdürlüğü",
+      "type":"Müdürlük",
+      "target_audience":"Yaşlı, Bakıma muhtaç  ",
+      "criteria":[
+            "65 Yaş üstü olmak",
+            "Psikososyal Hizmetler: Günaydın toplantıları, vizit, birlikte sanat etkinlikleri, bireysel konuşma ve drama mevcut"
+         ],
+      "telephone_number":"02423491640",
+      "duration":"Hafta içi ve Cumartesi 9:00-17:00",
+      "latitude":36.87787344793172,
+      "longitude": 30.71566000445443},
+
+  ],
+  'Gaziantep':[
+     {"address":"Gerciğin Köyü 138009 Nolu Sk. No:38  Şahinbey, Gaziantep",
+      "name":"GAZİANTEP HUZUREVİ VE YAŞLI BAKIM VE REHABİLİTASYON MERKEZİ",
+      "type":"HUZUREVİ",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+        ],
+      "telephone_number":"0342 448 15 41",
+      "duration":"Pazartesi-Cuma/ 08.30- 17.00",
+      "latitude":37.06505306978645,
+      "longitude": 37.24368729120081},
+
+      {"address":"MENDERES MAH. ŞEHİT MEHMET KAYA SK. NO:8 NİZİP/GAZİANTEP ",
+      "name":"GAZİANTEP NİZİP HUZUREVİ",
+      "type":"HUZUREVİ",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+         ],
+      "telephone_number":"+90 (342) 517 31 27",
+      "duration":"Hergün 7/24",
+      "latitude":37.0093152868858,
+      "longitude": 37.80043365208658},
+
+      {"address":"Küçükkızılhisar Mah. 104031 Nolu Cad. 15 Beştepe, Şahinbey, Gaziantep",
+      "name":"GAZİANTEP ÜNİVERSİTESİ - NEVİN ERUSLU PALYATİF BAKIM VE UMUT EVİ",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+         ],
+      "telephone_number":"0342 472 07 10",
+      "duration":"Hergün 7/24",
+      "latitude":36.99184141201574,
+      "longitude": 37.31024951534144},
+      
+      {"address":"Osmangazi Mah. 56060 Nolu Cad. Şehitkamil, Gaziantep",
+      "name":"GAZİANTEP HUZUREVİ YAŞLI BAKIM VE REHABİLİTASYON MERKEZİ",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+          ],
+      "telephone_number":"0342 360 01 81",
+      "duration":"Hergün 7/24",
+      "latitude":37.05570271270509,
+      "longitude": 37.32057191090346},
+    
+
+    {"address":"Yeditepe, Yaşam Huzurevi, 85113 Nolu Sokak, 27470 Şahinbey/Gaziantep",
+      "name":"Özel Yaşam Huzurevi ve Yaşlı Bakım Merkezi",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+         ],
+      "telephone_number":"0 552 1561220",
+      "duration":"Hergün 7/24",
+      "latitude":37.03310677302644,
+      "longitude": 37.330084968194434},
+
+    
+    {"address":"Şehirgösteren Mah. 68028 Nolu Cad. 23 Dk:1 Şehitkamil, Gaziantep",
+      "name":"ÖZEL MASAL KÖY BAKIM MERKEZİ",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+         ],
+      "telephone_number":" 0 539 9110295",
+      "duration":"Hergün 7/24",
+      "latitude":37.0959907,
+      "longitude": 37.3301636},
+
+    {"address":"Emek, 19021.Sok. 35/1, 27500 Şehitkamil/Gaziantep",
+      "name":"ÖZEL GAZİANTEP BAKIM MERKEZİ",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+         ],
+      "telephone_number":"0 3423210880",
+      "duration":"Hergün 7/24",
+      "latitude":37.077675896635085,
+      "longitude":  37.34637447141874},
+
+
+      {"address":"Güllük Mah. 2042 Nolu Sok. No:5 27200 Gaziantep",
+      "name":"ELİT BAKIM MERKEZİ",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"Yaşlı ",
+      "criteria":[
+         ],
+      "telephone_number":"0535 466 90 09- 5323945676",
+      "duration":"Hergün 7/24",
+      "latitude":36.97217388654108,
+      "longitude": 37.513648118020264},
+
+
+      {"address":"Öğretmenevleri Mah. Safi Erselim Sk. 27010 Şahinbey/Gaziantep",
+      "name":"CANEL ÖZEL BAKIM MERKEZİ",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"yaşlı ve 19 yaş ve üzerindeki kadın, erkek zihinsel engelli bireyler ",
+      "criteria":[
+         ],
+      "telephone_number":"0 3423398808",
+      "duration":"Hergün 7/24",
+      "latitude":37.060374796621964,
+      "longitude": 37.354279185219916},
+
+
+      {"address":"Pancarlı, 58002. Sk. No:6, 27060 Şehitkamil/Gaziantep",
+      "name":"ÖZEL NİSA BAKIM MERKEZİ",
+      "type":" HUZUREVİ ve Yaşlı bakım evleri",
+      "target_audience":"yaşlı ve 19 yaş ve üzerindeki kadın, erkek zihinsel engelli bireyler ",
+      "criteria":[
+         ],
+      "telephone_number":"0532 175 23 52",
+      "duration":"Hergün 7/24",
+      "latitude":37.07229958899236,
+      "longitude": 37.34076976004579},
+
+  ],
+  'Ankara':[
+    
+     {"address":"Ehlibeyt, Tekstilciler Cd. No:10, 06520 Çankaya/Ankara",
+      "name":"Kızılay Ankara Şubesi",
+      "type":"Kamu yararına çalışan kurum",
+      "target_audience":"İhtiyaç sahibi tüm bireyler",
+      "criteria":[
+        'İhtiyaç sahibi olmak'
+        'Psikososyal Hizmetler: Nakti ve Ayni Yardım (Sıcak Yemek, Düzenli Aylık, Giysi, Tekerlekli Sandalye, Barınma, Sağlık Yardımı)'
+        ],
+      "telephone_number":" (0312) 311 35 74",
+      "duration":"Haftaiçi 9.00-17.00",
+      "latitude":39.89548941113744,
+      "longitude": 32.814957271164324},
+
+      {"address":"Hanımeli Sokak No:1/A Sıhhiye",
+      "name":"Çankaya Sosyal Dayanışma Ve Yardımlaşma Vakfı",
+      "type":"Kamu kurumu",
+      "target_audience":"65 yaş ve üstündeki yaşlı vatandaşlar,TC vatandaşı kadınlar",
+      "criteria":[
+        '"TC vatandaşı olmak 65 yaşını doldurmuş olmak Nafaka almıyor olmak. Herhangi bir sosyal güvenceye tabi olmamak(Emekli Sandığı, SSK ya da Bağkur sigorta kollarından birine bağlı olmamak) Herhangi bir düzenli gelire sahip olmamak En az asgari ücretle sigortalı bir işte çalışmıyor olmak Herhangi bir bireysel sağlık sigortası sahibi olmamak Üzerine kayıtlı gelir getirici değerli menkul ya da gayrimenkul sahibi olmamak Sosyal Hizmetler Kanunu kapsamında harçlık alıyor olmamak'
+         'Son resmi nikâhlı eşi vefat etmiş, evli olmayan, kendisi ya da içinde bulunduğu hanedeki herhangi bir kişi kanunla kurulu sosyal güvenlik kuruluşlarına tabi olmayan, fakir ve muhtaç durumda olduğu Mütevelli Heyeti kararıyla tespit edilen kadınlar, 2022 sayılı kanuna göre engelli ve/veya 65 yaş aylığı alanların aynı zamanda dul aylığından da yararlanmalarında bir engel yoktur.'
+         'Psikososyal Hizmetler: Yaşlı Aylığı/65 Yaş Aylığı',
+
+        ],
+      "telephone_number":"(0312) 418 33 24",
+      "duration":"Haftaiçi 08:00-17:00",
+      "latitude":39.92686475489532,
+      "longitude": 32.85399527116432},
+
+     {"address":"İstasyon Mahallesi Türk Kızılayı Caddesi No: 25 ",
+      "name":"Etimesgut Sosyal Hizmet Merkezi",
+      "type":"Kamu kurumu",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+          "\n1) 60 yaş ve üzeri yaşlarda olmak, \n2)Kendi gereksinimlerini karşılamasını engelleyici bir rahatsızlığı bulunmamak yeme, içme, banyo, tuvalet ve bunun gibi günlük yaşam etkinliklerini bağımsız olarak yapabilecek durumda olmak, \n3)Ruh sağlığı yerinde olmak, \n4)Bulaşıcı hastalığı olmamak, \n5)Uyuşturucu madde yada alkol bağımlısı olmamak, \n6)Sosyal ve/veya ekonomik yoksunluk içinde bulunduğu sosyal inceleme raporu ile saptanmış   olmak.",
+         'Psikososyal Hizmetler: "Kurum Bakımı Huzurevi/Bakım ve Rehabilitasyon Merkezi"',
+
+        ],
+      "telephone_number":" (0312) 244 00 11",
+      "duration":"Haftaiçi 9.00-17.00",
+      "latitude":39.947482939100574,
+      "longitude": 32.66999117116431},
+
+
+      {"address":"Saray Osmangazi, Özal Bulvarı No:162, 06145 Pursaklar/Ankara",
+      "name":"Saray Engelsiz Yaşam Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan, zihinsel ve bedensel açıdan yetersiz bireyler",
+      "criteria":[
+         "Doğuştan veya sonradan herhangi bir nedenle bedensel, zihinsel, ruhsal, duyusal ve sosyal yeteneklerini çeşitli derecelerde kaybetmesi nedeniyle toplumsal yaşama uyum sağlama ve günlük gereksinimlerini karşılama güçlükleri olmak",
+         'Psikososyal Hizmetler: Kurum Bakımı, Fizik Tedavi, Psiko-Sosyal Destek, Sosyal Etkinlikleri İçeren Rehabilitasyon Programları',
+
+        ],
+      "telephone_number":"(0312) 399 37 82",
+      "duration":"08:00-17:00",
+      "latitude":40.07000836731087,
+      "longitude": 32.934533223286465},
+
+      {"address":"İstiklal, Er Sk. No: 6, 06950 Şereflikoçhisar/Ankara",
+      "name":"Şereflikoçhisar Bakım, Rehabilitasyon ve Aile Danışma Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan, zihinsel ve bedensel açıdan yetersiz bireyler",
+      "criteria":[
+         "Doğuştan veya sonradan herhangi bir nedenle bedensel, zihinsel, ruhsal, duyusal ve sosyal yeteneklerini çeşitli derecelerde kaybetmesi nedeniyle toplumsal yaşama uyum sağlama ve günlük gereksinimlerini karşılama güçlükleri olmak",
+         'Psikososyal Hizmetler: Kurum Bakımı, Fizik Tedavi, Psiko-Sosyal Destek, Sosyal Etkinlikleri İçeren Rehabilitasyon Programları',
+
+        ],
+      "telephone_number":"(0312) 687 94 64",
+      "duration":" 08:00-17:00",
+      "latitude":38.92764299330302,
+      "longitude":  33.55726608465729},
+
+
+      {"address":"Mutlukent, 1914. Sk. No:1, 06800 Çankaya/Ankara",
+      "name":"Ümitköy Huzurevi Yaşlı Bakım Ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler:  Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler.',
+
+        ],
+      "telephone_number":"(0312) 235 45 27",
+      "duration":"08.00-17.00",
+      "latitude":39.88912146531034,
+      "longitude": 32.706792023286475},
+
+
+      {"address":"Seyranbağları, Bağlar Cd. No:161, 06670 Çankaya/Ankara",
+      "name":"Seyranbağları Huzurevi Yaşlı Bakım Ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler:   Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler',
+
+        ],
+      "telephone_number":"(0312) 447 31 32",
+      "duration":"08.00-17.00",
+      "latitude":39.90654830421919,
+      "longitude": 32.87150856931459},
+
+      {"address":"Yavuz Selim, P.T.T. Cd No:1, 06760 Çubuk/Ankara",
+      "name":"Çubuk Abidin Yılmaz Huzurevi Yaşlı Bakım Ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler',
+
+        ],
+      "telephone_number":"(0312) 838 16 28",
+      "duration":"08.00-17.00",
+      "latitude":40.24467952097536,
+      "longitude": 33.030811630685406},
+
+
+      {"address":"Gicik, 06365 Altındağ/Ankara",
+      "name":"Gicik Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi ",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler',
+
+        ],
+      "telephone_number":"(0312) 399 70 74",
+      "duration":"08.00-17.00",
+      "latitude":40.01098465337784,
+      "longitude": 32.96741924602811},
+
+
+      {"address":"İsmetpaşa, 2. Cd., 06890 Kızılcahamam/Ankara",
+      "name":"Kızılcahamam Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler',
+
+        ],
+      "telephone_number":"(0312) 736 30 20 - (0312) 753 16 20",
+      "duration":"08:00-17:00 ve yatılı kuruluş olması nedeni ile hizmet 24 saat devam etmektedir.",
+      "latitude":40.47532080935096,
+      "longitude": 32.65951425397189},
+
+
+      {"address":"Ehlibeyt, Cevizlidere Cd. No:4, 06520 Çankaya/Ankara",
+      "name":"75. Yıl Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
+      "type":"Huzurevi",
+      "target_audience":"Kurum bakımına ihtiyaç duyan yaşlı bireyler",
+      "criteria":[
+         "60 yaşı doldurmuş olmak Kendi öz bakımını gerçekleştirebilir durumda olmak Akıl ve ruh sağlığı yerinde olmak, Herhangi bir bulaşıcı hastalığa sahip olmamak."
+         'Psikososyal Hizmetler: Konaklama ve Yemek Hizmeti, Sağlık Kontrolleri, Yaşlı Bakımı ve Rehabilitasyon Hizmetleri, Fizik Tedavi, Tiyatro Atölyesi, Kuaför, El Sanatları Atölyesi, Halk Oyunları, Geziler,  Sosyal ve Kültürel Faaliyetler.',
+
+        ],
+      "telephone_number":"(0312) 289 50 00",
+      "duration":"Haftaiçi 08:30-17:00",
+      "latitude":39.894384926539566,
+      "longitude": 32.81957250739893},
+
+  ],
+
 };
 
 const tempCoordinates =
@@ -1165,7 +1759,7 @@ class _HomeViewState extends State<HomeView> {
                                       style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
                                       children:[
                                         TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}'.toUpperCase(),
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}'.toUpperCase().replaceAll(' ',''),
                                           style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
