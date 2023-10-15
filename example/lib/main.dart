@@ -1595,7 +1595,7 @@ class _HomeViewState extends State<HomeView> {
         Row(
           children: [
             CircleAvatar(
-              backgroundImage: AssetImage('images/harita65Logo.jpg'),
+              backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1713497221709119488/ucBSlz4V_400x400.jpg'),
               radius: 65,
             ),
             SizedBox(width: 10,),
@@ -1783,9 +1783,7 @@ class _HomeViewState extends State<HomeView> {
                     shrinkWrap: true,
                     itemCount:(targetData[selectedCity!.title] as List).length,
                     itemBuilder: (context,index){
-                      return Row(
-                        children: [
-                          InkWell(
+                      return InkWell(
                             onTap: (){
                               var random = Random();
                               var mapData = citiesLocationData[selectedCity!.title];
@@ -1843,8 +1841,7 @@ class _HomeViewState extends State<HomeView> {
                                 );
                               }
                             },
-                            child: Expanded(
-                              child: Row(
+                            child:Row(
                                 children: [
                                   RichText(
                                     text:TextSpan(
@@ -1929,11 +1926,8 @@ class _HomeViewState extends State<HomeView> {
                                       ))), icon: Icon(Icons.info,size: 20,color: Colors.pink,)):SizedBox.shrink(),
                                 ],
                               ),
-                            ),
-                          ),
-                          SizedBox(height: 40,),
-                        ],
-                      );
+                            
+                          );
                     }),
                ):SizedBox.shrink(),
         ],
