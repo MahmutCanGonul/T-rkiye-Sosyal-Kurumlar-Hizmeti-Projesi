@@ -23,7 +23,7 @@ class MapScreenState extends State<MapScreen>{
             text: '${widget.cityName} Haritası ',
             style: TextStyle(color: Colors.pink,fontSize: 25,fontWeight: FontWeight.bold),
             children: [
-              TextSpan(text: ' (Mouse ile Haritayı yakınlaştırabilir ya da uzaklaştırabilirsiniz)',
+              TextSpan(text: ' (Fare ile Haritayı yakınlaştırabilir ya da uzaklaştırabilirsiniz)',
               style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold))
             ],
           ),

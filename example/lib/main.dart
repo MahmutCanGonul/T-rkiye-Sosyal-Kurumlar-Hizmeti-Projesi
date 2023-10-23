@@ -27,7 +27,7 @@ var colors = [
 
 var currentCities = [
   'Istanbul', 'Ankara', 'İzmir', 'Bursa',
-  'Antalya', 'Konya', 'Adana', 'Şanlıurfa', 'Gaziantep', 'Kocaeli', 'Diyarbakır', 'Trabzon', 'Aydın',
+  'Antalya', 'Konya', 'Şanlıurfa', 'Gaziantep', 'Kocaeli', 'Trabzon', 'Aydın',
   'Erzurum',
   'Eskişehir',
 ];
@@ -1543,6 +1543,7 @@ class _HomeViewState extends State<HomeView> {
   var provinces = [];
   List<Widget> targetAddressList = [];
   Color selected_color = Colors.teal;
+  final _scrollController = ScrollController();
  @override
  void initState(){
    super.initState();
@@ -1630,6 +1631,17 @@ class _HomeViewState extends State<HomeView> {
                   radius: 30,
                 ),
               ),
+                SizedBox(width: 10,),
+               InkWell(
+                onTap: ()async{
+                  await launchUrl(Uri.parse('https://www.birizdernegi.org/'));
+                },
+                child: CircleAvatar(
+                  //backgroundColor: Colors.teal,
+                  backgroundImage: NetworkImage('https://pbs.twimg.com/profile_images/1146773186580832257/I9XwL7fH_400x400.jpg'),
+                  radius: 30,
+                ),
+              ),
               SizedBox(width: 10,),
               InkWell(
                 onTap: ()async{
@@ -1647,6 +1659,7 @@ class _HomeViewState extends State<HomeView> {
             style: TextStyle(color: Colors.black,
                 ),
             textAlign: TextAlign.center,),
+          /*
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -1662,6 +1675,7 @@ class _HomeViewState extends State<HomeView> {
               ),
             ],
           ),
+          */
           Center(
             child: InteractiveViewer(
               scaleEnabled: true,
@@ -1779,7 +1793,17 @@ class _HomeViewState extends State<HomeView> {
                   targetData.containsKey(selectedCity!.title)
                   ?
                Expanded(
-                child: ListView.builder(
+                child: RawScrollbar( 
+                  thumbVisibility: true,
+                  controller: _scrollController,
+                  thumbColor: Colors.pinkAccent,
+                  radius: Radius.circular(20),
+                  thickness: 10,
+                  child: Scrollbar(
+                  thumbVisibility: true,
+                  controller: _scrollController,
+                  child: ListView.builder(
+                    controller: _scrollController,
                     shrinkWrap: true,
                     itemCount:(targetData[selectedCity!.title] as List).length,
                     itemBuilder: (context,index){
@@ -1841,7 +1865,9 @@ class _HomeViewState extends State<HomeView> {
                                 );
                               }
                             },
-                            child:Row(
+                            child:SizedBox(
+                              height: 100,
+                              child: Row(
                                 children: [
                                   RichText(
                                     text:TextSpan(
@@ -1876,7 +1902,7 @@ class _HomeViewState extends State<HomeView> {
                                       children:[
                                         TextSpan(
                                           text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}'.toUpperCase().replaceAll(' ',''),
-                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
+                                          style: TextStyle(fontSize: 12,color: Colors.black,fontWeight: FontWeight.bold),
 
                                         ),
                                       ],
@@ -1923,12 +1949,14 @@ class _HomeViewState extends State<HomeView> {
                                               style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)
                                           ),
                                           ],
-                                      ))), icon: Icon(Icons.info,size: 20,color: Colors.pink,)):SizedBox.shrink(),
+                                      ))), icon: Icon(Icons.info,size: 25,color: Colors.pink,)):SizedBox.shrink(),
                                 ],
                               ),
+                            ),
                             
                           );
                     }),
+                )),
                ):SizedBox.shrink(),
         ],
       ),

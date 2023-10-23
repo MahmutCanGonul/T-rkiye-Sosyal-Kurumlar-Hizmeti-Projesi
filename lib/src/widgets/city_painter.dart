@@ -11,11 +11,11 @@ class CityPainter extends CustomPainter {
   final sizeController = SizeController.instance;
 
   double _scale = 1.0;
-  var currentCities = [
+   var  currentCities = [
     'Istanbul', 'Ankara', 'İzmir', 'Bursa',
-    'Antalya', 'Konya', 'Adana', 'Şanlıurfa', 'Gaziantep', 'Kocaeli', 'Diyarbakır', 'Trabzon', 'Aydın',
+    'Antalya', 'Konya', 'Şanlıurfa', 'Gaziantep', 'Kocaeli', 'Trabzon', 'Aydın',
     'Erzurum',
-    'Eskişehir',
+    'Eskişehir'
   ];
   CityPainter(
       {required this.city,
@@ -54,6 +54,7 @@ class CityPainter extends CustomPainter {
     }
     if(currentCities.contains(city.title))
       canvas.drawCircle(bounds.center, 3.0, redDot);
+    print("HELLO WORLD");
     canvas.drawPath(city.path, pen);
   }
 
