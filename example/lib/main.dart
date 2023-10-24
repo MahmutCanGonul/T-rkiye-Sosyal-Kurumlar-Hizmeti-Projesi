@@ -1600,7 +1600,8 @@ class _HomeViewState extends State<HomeView> {
               radius: 65,
             ),
             SizedBox(width: 10,),
-            Text('Seçilen Şehir: ${selectedCity?.title ?? '(Lütfen işaretli olan illeri seçiniz)'}'),
+          selectedCity!=null ? Text('Seçilen Şehir: ${selectedCity!.title}  (Detaylı bilgi öğrenmek istediğiniz kurumu aşağıdan seçiniz.)')
+          :Text('(Lütfen işaretli olan illeri seçiniz)'),
           ],
         ),
         //Text('Seçilen Şehir: ${selectedCity?.title ?? '(Lütfen işaretli olan illeri seçiniz)'}'),
@@ -1782,7 +1783,7 @@ class _HomeViewState extends State<HomeView> {
                     );
                   }
                 },
-                child: Text('TÜM KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pink,fontWeight: FontWeight.bold),),
+                child: Text('TÜM KURUMLARI HARİTADA GÖR',style: TextStyle(color: Colors.pink,fontWeight: FontWeight.bold,fontSize: 20),),
               ): selectedCity!=null && !targetData.containsKey(selectedCity!.title) ? 
               Text(' ${selectedCity!.title} şehrinin verileri hazırlanma aşamasındadır.',
               style: TextStyle(color: Colors.pink,fontWeight: FontWeight.bold,fontSize: 25),)
@@ -1808,7 +1809,85 @@ class _HomeViewState extends State<HomeView> {
                     itemCount:(targetData[selectedCity!.title] as List).length,
                     itemBuilder: (context,index){
                       return InkWell(
-                            onTap: (){
+                            onTap: ()=>
+                            ((targetData[selectedCity!.title] as List)[index]['criteria'] as List).isNotEmpty ?
+                            showModalBottomSheet(context: context,
+                                      builder:(context) => RichText(text: TextSpan(
+                                        text: 'Kriterler: ',
+                                        style: TextStyle(color: Colors.pink,fontSize: 20,fontWeight: FontWeight.bold),
+                                        children: [
+                                          TextSpan(
+                                              text:'${(targetData[selectedCity!.title] as List)[index]['criteria']}',
+                                              style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)
+                                          ),
+                                          ],
+                                      ))):null,
+                            child:SizedBox(
+                              height: 150,
+                              child:RichText(
+                                     text:TextSpan(
+                                      text: '${index+1}.Kurum Adı:',
+                                      style: TextStyle(fontSize: 15,color: Colors.teal,fontWeight: FontWeight.bold),
+                                      children:[
+                                        TextSpan(
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}'.toUpperCase(),
+                                          style: TextStyle(fontSize: 13,color: Colors.black,fontWeight: FontWeight.bold),
+                                        ),
+                                         TextSpan(
+                                           text: ' Hedef Kitle:',
+                                           style: TextStyle(fontSize: 15,color: Colors.teal,fontWeight: FontWeight.bold),
+                                         ),
+                                          TextSpan(
+                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}'.toUpperCase(),
+                                          style: TextStyle(fontSize: 13,color: Colors.black,fontWeight: FontWeight.bold),
+                                        ),
+                                          TextSpan(
+                                                text: ' Telefon:',
+                                      style: TextStyle(fontSize: 15,color: Colors.teal,fontWeight: FontWeight.bold),
+                                          ),
+                                          TextSpan(
+                                          text: '${(targetData[selectedCity!.title] as List)[index]['telephone_number']}'.toUpperCase().replaceAll(' ',''),
+                                          style: TextStyle(fontSize: 13,color: Colors.black,fontWeight: FontWeight.bold),
+                                         
+                                        ),
+
+                                          TextSpan(   text: ' Açık Adres:',
+                                      style: TextStyle(fontSize: 15,color: Colors.teal,fontWeight: FontWeight.bold),
+                                    ),
+                                           TextSpan(
+                                          text: '${((targetData[selectedCity!.title] as List)[index]['address'] as String).toUpperCase()}',
+                                          style: TextStyle(fontSize: 13,color: Colors.black,fontWeight: FontWeight.bold),
+
+                                        ),
+                                          TextSpan(
+                                            text: ' Saatler:',
+                                      style: TextStyle(fontSize: 15,color: Colors.teal,fontWeight: FontWeight.bold),
+                                          ),   
+
+                                            TextSpan(
+                                          text: '${(targetData[selectedCity!.title] as List)[index]['duration']}'.toUpperCase(),
+                                          style: TextStyle(fontSize: 13,color: Colors.black,fontWeight: FontWeight.bold),),
+
+
+                                      ],
+                                    ),textAlign: TextAlign.center,
+                                  ),
+                            ),
+                            
+                          );
+                    }),
+                )),
+               ):SizedBox.shrink(),
+        ],
+      ),
+    );
+  }
+}
+
+
+//COMMENTED CODES
+
+             /* Inside the Listview.buildir Inkwell Object Ontap() function algorithm:
                               var random = Random();
                               var mapData = citiesLocationData[selectedCity!.title];
                               if(mapData!=null){
@@ -1863,81 +1942,14 @@ class _HomeViewState extends State<HomeView> {
                                       cityName: cityName,
                                       mapData: mapData)),
                                 );
+                                
                               }
-                            },
-                            child:SizedBox(
-                              height: 100,
-                              child: Row(
-                                children: [
-                                  RichText(
-                                    text:TextSpan(
-                                      text: '${index+1}.Kurum Adı:',
-                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
-                                      children:[
-                                        TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['name']}'.toUpperCase(),
-                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
-                                        ),
-                                      ],
-                                    ),textAlign: TextAlign.center,
-                                  ),
-                                  SizedBox(width: 5,),
-                                  RichText(
-                                    text:TextSpan(
-                                      text: 'Hedef Kitle:',
-                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
-                                      children:[
-                                        TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['target_audience']}'.toUpperCase(),
-                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
-                                        ),
-                                      ],
-                                    ),textAlign: TextAlign.center,
-                                  ),
-                                  SizedBox(width: 5,),
-                                  RichText(
-                                    text:TextSpan(
-                                      text: 'Telefon:',
-                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
-                                      children:[
-                                        TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['telephone_number']}'.toUpperCase().replaceAll(' ',''),
-                                          style: TextStyle(fontSize: 12,color: Colors.black,fontWeight: FontWeight.bold),
+                              */
 
-                                        ),
-                                      ],
-                                    ),textAlign: TextAlign.center,
-                                  ),
-                                  SizedBox(width: 5,),
-                                  RichText(
-                                    text:TextSpan(
-                                      text: 'Açık Adres:',
-                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
-                                      children:[
-                                        TextSpan(
-                                          text: ' ${((targetData[selectedCity!.title] as List)[index]['address'] as String).toUpperCase()}',
-                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
-                                        ),
-                                      ],
-                                    ),textAlign: TextAlign.center,
-                                  ),
-                                  SizedBox(width: 5,),
-                                  RichText(
-                                    overflow: TextOverflow.ellipsis,
-                                    text:TextSpan(
-                                      text: 'Saatler:',
-                                      style: TextStyle(fontSize: 12,color: Colors.teal,fontWeight: FontWeight.bold),
-                                      children:[
-                                        TextSpan(
-                                          text: ' ${(targetData[selectedCity!.title] as List)[index]['duration']}'.toUpperCase(),
-                                          style: TextStyle(fontSize: 10,color: Colors.black,fontWeight: FontWeight.bold),
 
-                                        ),
-                                      ],
-                                    ),textAlign: TextAlign.center,
-                                  ),
-                                  SizedBox(width: 5,),
+                                     //INFO ICON LOGIC
+                                      /*
                                   ((targetData[selectedCity!.title] as List)[index]['criteria'] as List).isNotEmpty ?
                                   IconButton(onPressed:()=> showModalBottomSheet(context: context,
                                       builder:(context) => RichText(text: TextSpan(
@@ -1949,21 +1961,8 @@ class _HomeViewState extends State<HomeView> {
                                               style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold)
                                           ),
                                           ],
-                                      ))), icon: Icon(Icons.info,size: 25,color: Colors.pink,)):SizedBox.shrink(),
-                                ],
-                              ),
-                            ),
-                            
-                          );
-                    }),
-                )),
-               ):SizedBox.shrink(),
-        ],
-      ),
-    );
-  }
-}
-
+                                      ))), icon: Icon(Icons.info,size: 25,color: Colors.pink,)):SizedBox.shrink(),*/
+             
 
 /*
 FlutterMap(
